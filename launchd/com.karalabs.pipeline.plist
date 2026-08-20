@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.karalabs.pipeline</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>/Users/dharshinimarudhu/kara-pipeline/run.sh</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>/Users/dharshinimarudhu/kara-pipeline</string>
+
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>OPENALEX_MAILTO</key>
+    <string>dharshini@karadiam.com</string>
+  </dict>
+
+  <!-- Mondays at 09:00 local. The OpenAlex budget resets at midnight UTC,
+       which is the previous afternoon in Pacific time, so the allowance is
+       fresh by the time this fires. -->
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key><integer>1</integer>
+    <key>Hour</key><integer>9</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+
+  <!-- If the Mac was asleep or off at 09:00, run at the next opportunity. -->
+  <key>RunAtLoad</key>
+  <false/>
+
+  <key>StandardOutPath</key>
+  <string>/Users/dharshinimarudhu/kara-pipeline/data/log/launchd.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/dharshinimarudhu/kara-pipeline/data/log/launchd.err.log</string>
+</dict>
+</plist>

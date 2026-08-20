@@ -8,3 +8,6 @@ __pycache__/
 data/already_drafted.csv
 data/*_enriched.csv
 data/*_contacts.csv
+data/log/
+candidates.json
+data/candidates.json
