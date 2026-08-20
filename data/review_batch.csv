@@ -1,896 +1,463 @@
 rank,tier,class,author,affiliation,affil_suspect,product_line,paper_title,paper_doi,paper_year,hook,subject,body,current_employer_verified,email,linkedin_url,approved
-1,T1,displacement,Phani Suresh Paladugu,Synopsys (United States),N,polycrystalline-CVD-diamond-wafer,HBM4 Integration In AI/HPC Chiplet Architectures: Co-Design And Telemetry-Driven Optimization,https://doi.org/10.5281/zenodo.18816182,2026,co-designed HBM integration and telemetry driven optimization for AI and HPC chiplet architectures,thermal headroom in HBM chiplet co-design,"Hi Phani,
+1,T1,core,"Quni-Gudzinas, Rowan Brad",Q-Flex (United States),N,UHP-and-engineered-SCD,CRYOGENICALLY STABILIZED SYNTHETIC LATTICE ARCHITECTURE FOR FAULT-TOLERANT QUANTUM COMPUTING,https://doi.org/10.5281/zenodo.17709213,2026,proposed a cryogenically stabilized lattice architecture for fault tolerant quantum computing,substrate purity in cryogenic qubit lattices,"Hi Rowan,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Q-Flex's fault-tolerant quantum architecture work, has diamond come up as a way to hold coherence where the host substrate is what limits it? Kara grows ultra-high-purity single-crystal diamond with nitrogen held very low, for cases where the substrate itself has to stop adding noise.
 
-Your work on HBM integration in AI and HPC chiplet architectures treats thermal telemetry as a design input rather than a downstream check.
-
-We make polycrystalline diamond wafers and single crystal plates that sit in the package as a spreader, close to the die where the telemetry gets ugly.
-
-I am curious whether diamond has come up as a spreader option there, or whether copper and ceramic remain the assumption.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-2,T1,core,"Quni-Gudzinas, Rowan Brad",Q-Flex (United States),N,UHP-and-engineered-SCD,CRYOGENICALLY STABILIZED SYNTHETIC LATTICE ARCHITECTURE FOR FAULT-TOLERANT QUANTUM COMPUTING,https://doi.org/10.5281/zenodo.17709213,2026,proposed a cryogenically stabilized lattice architecture for fault tolerant quantum computing,substrate purity in cryogenic qubit lattices,"Hi Rowan,
+2,T1,displacement,Phani Suresh Paladugu,Synopsys (United States),N,polycrystalline-CVD-diamond-wafer,HBM4 Integration In AI/HPC Chiplet Architectures: Co-Design And Telemetry-Driven Optimization,https://doi.org/10.5281/zenodo.18816182,2026,co-designed HBM integration and telemetry driven optimization for AI and HPC chiplet architectures,thermal headroom in HBM chiplet co-design,"Hi Phani,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Synopsys' HBM chiplet integration work, has diamond come up as a way to improve the near-die thermal path where your telemetry shows the hotspots? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your architecture work on cryogenically stabilized lattices for fault tolerant quantum computing depends heavily on what the host substrate does to coherence.
-
-We grow ultra high purity single crystal diamond with nitrogen held very low, which is the grade people use when the substrate itself has to stop being a noise source.
-
-Has diamond come up as a substrate option in your architecture work, or is the platform settled on something else?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 3,T1,core,Wenhao Li,Intel (United Kingdom),N,copper-diamond-composite,Cold Sprayed Copper-Diamond Composites for Thermal Management of Semiconductor Packages,https://doi.org/10.4071/001c.128390,2025,built cold sprayed copper diamond composites for semiconductor package thermal management,cold spray copper diamond for package spreading,"Hi Wenhao,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Intel's cold-sprayed copper-diamond work, has buying finished diamond composite come up alongside depositing it in house? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your cold spray work on copper diamond composites for packages goes after the same problem we do, from the deposition side.
-
-We supply copper diamond and aluminum diamond composite with CTE targeted to silicon or GaN, plus bulk diamond when the spreader carries more.
-
-I am curious whether sourcing finished diamond composite has come up alongside growing it in house, or whether cold spray is the settled route.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-4,T1,core,Yoshihiro TOMITA,Intel (United Kingdom),N,copper-diamond-composite,Cold Sprayed Copper-Diamond Composites for Thermal Management of Semiconductor Packages,https://doi.org/10.4071/001c.124091,2024,worked on cold sprayed copper diamond composites for semiconductor package thermal management,copper diamond composite in package thermal paths,"Hi Yoshihiro,
+4,T2,displacement,Charles Woychik,NHanced Semiconductors (United States),N,polycrystalline-CVD-diamond-wafer,The Future of Electronics Packaging is Chiplet Architecture,https://doi.org/10.37665/smctrsc40814,2025,argued that chiplet architecture is the future of electronics packaging,thermal limits on chiplet packaging,"Hi Charles,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For NHanced Semiconductors' chiplet packaging roadmap, has diamond come up as a way to handle the hotspots that chiplet stacking concentrates? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your cold spray work on copper diamond composites for semiconductor packages puts diamond loading right at the centre of the thermal path.
-
-We manufacture copper diamond and aluminum diamond composite with CTE matched toward silicon or GaN, and bulk CVD diamond plates where the spreader needs more.
-
-Has buying finished diamond composite come up as an alternative to depositing it, or is cold spray the direction you are committed to?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-5,T2,core,Bernd Dielacher,EV Group (Austria),N,single-crystal-CVD-diamond-plate,Low temperature bonding of diamond heat spreaders for advanced thermal management,https://doi.org/10.35848/1347-4065/adc699,2025,demonstrated low temperature bonding of diamond heat spreaders for advanced thermal management,low temperature bonding of diamond spreaders,"Hi Bernd,
+5,T1,core,Yoshihiro TOMITA,Intel (United Kingdom),N,copper-diamond-composite,Cold Sprayed Copper-Diamond Composites for Thermal Management of Semiconductor Packages,https://doi.org/10.4071/001c.124091,2024,worked on cold sprayed copper diamond composites for semiconductor package thermal management,copper diamond composite in package thermal paths,"Hi Yoshihiro,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Intel's copper-diamond composite work, has buying finished diamond composite come up alongside depositing it in house? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your low temperature bonding work on diamond heat spreaders removes one of the practical reasons teams give up on diamond in the package.
-
-We grow the spreaders themselves, single crystal CVD diamond plates and polycrystalline diamond wafers, with surface finish specified for bonding rather than left as grown.
-
-I am curious what you are sourcing diamond from today, and whether plate flatness and finish are the limiting variables in that bond.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-6,T2,displacement,Charles Woychik,NHanced Semiconductors (United States),N,polycrystalline-CVD-diamond-wafer,The Future of Electronics Packaging is Chiplet Architecture,https://doi.org/10.37665/smctrsc40814,2025,argued that chiplet architecture is the future of electronics packaging,thermal limits on chiplet packaging,"Hi Charles,
+6,T2,displacement,Chih-Ming Hung,MediaTek (Taiwan),N,polycrystalline-CVD-diamond-wafer,Heterogeneous Integration in Co-Packaged Optics,https://doi.org/10.1109/jetcas.2025.3590744,2025,worked on heterogeneous integration for co-packaged optics,thermal path in co-packaged optics integration,"Hi Chih-Ming,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For MediaTek's co-packaged optics integration, has diamond come up as a way to hold the gradient flat where wavelength stability depends on it? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your position on chiplet architecture as the direction for electronics packaging matches what we keep hearing from the thermal side of the same transition.
-
-We make polycrystalline CVD diamond wafers and diamond plates that go into the package as spreaders, aimed at the hotspots that chiplet stacking concentrates.
-
-Has diamond come up as a spreader option in the packaging roadmaps you work on, or is the assumption still copper and ceramic?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-7,T2,displacement,Chih-Ming Hung,MediaTek (Taiwan),N,polycrystalline-CVD-diamond-wafer,Heterogeneous Integration in Co-Packaged Optics,https://doi.org/10.1109/jetcas.2025.3590744,2025,worked on heterogeneous integration for co-packaged optics,thermal path in co-packaged optics integration,"Hi Chih-Ming,
+7,T2,core,Bernd Dielacher,EV Group (Austria),N,single-crystal-CVD-diamond-plate,Low temperature bonding of diamond heat spreaders for advanced thermal management,https://doi.org/10.35848/1347-4065/adc699,2025,demonstrated low temperature bonding of diamond heat spreaders for advanced thermal management,low temperature bonding of diamond spreaders,"Hi Bernd,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For EV Group's low-temperature diamond bonding work, are you sourcing diamond externally, or is growth in house the committed route? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your heterogeneous integration work for co-packaged optics sits where the optical engine and switch die share a thermal budget.
-
-We make CVD diamond wafers and plates used as spreaders in that kind of package, where wavelength stability makes the gradient a functional problem, not just a reliability one.
-
-I am curious whether diamond has come up as a spreader option there, or whether the default is still copper and ceramic.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 8,T2,displacement,Guoyou Liu,"CRRC Zhuzhou Electric Locomotive Institute Company Ltd., Zhuzhou, China",N,copper-diamond-composite,Investigation on Creep-Fatigue Interaction Failure of Die-Attach Solder Layers in IGBTs Under Power Cycling,https://doi.org/10.1109/tpel.2025.3530991,2025,investigated creep fatigue interaction failure in IGBT die attach solder layers under power cycling,die attach creep fatigue under power cycling,"Hi Guoyou,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For CRRC Zhuzhou Electric Locomotive Institute Company's IGBT die-attach reliability work, has diamond come up as a way to cut the CTE mismatch that drives creep fatigue in the solder? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your study of creep fatigue in IGBT die attach layers under power cycling points at the CTE mismatch driving the failure mode.
-
-We make copper diamond and aluminum diamond composite with CTE targeted to the die rather than to the baseplate, which changes the strain the solder has to absorb.
-
-Has a diamond composite baseplate come up as a route in your power cycling work, or is the material set fixed?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 9,T2,core,Johanna Swan,Intel (United Kingdom),N,copper-diamond-composite,Cold Sprayed Copper-Diamond Composites for Thermal Management of Semiconductor Packages,https://doi.org/10.4071/001c.128390,2025,built cold sprayed copper diamond composites for semiconductor package thermal management,cold spray copper diamond for package spreading,"Hi Johanna,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Intel's cold-sprayed copper-diamond work, has buying finished diamond composite come up alongside depositing it in house? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your cold spray work on copper diamond composites for packages goes after the same problem we do, from the deposition side.
-
-We supply copper diamond and aluminum diamond composite with CTE targeted to silicon or GaN, plus bulk diamond when the spreader carries more.
-
-I am curious whether sourcing finished diamond composite has come up alongside growing it in house, or whether cold spray is the settled route.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 10,T2,displacement,John Foley,Kulicke & Soffa (United States),N,polycrystalline-CVD-diamond-wafer,Advances in Vertical Wire Bonding Enable Low-Cost Shielding and Wafer Level Interconnect Solutions,https://doi.org/10.4071/001c.129015,2025,advanced vertical wire bonding for shielding and wafer level interconnect,wafer level interconnect and package thermal path,"Hi John,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Kulicke & Soffa's wafer-level interconnect work, has diamond come up as a way to add spreading at package level without fighting the interconnect scheme? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your vertical wire bonding work on shielding and wafer level interconnect touches the package real estate where the thermal path gets decided.
-
-We supply diamond wafers and plates used as spreaders at wafer and package level, which has to coexist with the interconnect scheme.
-
-I am curious whether diamond has come up as a spreader material in the packages you work on, or whether copper and ceramic are still the assumption.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 11,T2,displacement,Kerim T. Arat,Quantum Design (United States),N,polycrystalline-CVD-diamond-wafer,Multi-Modal Approach for Quality Control and Failure Analysis of Metal Lines for Chiplets Integration,https://doi.org/10.1093/mam/ozaf048.166,2025,built a multi-modal quality control and failure analysis approach for metal lines in chiplet integration,failure analysis of metal lines in chiplet integration,"Hi Kerim,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Quantum Design's chiplet failure analysis work, has diamond come up as a way to flatten the gradients that leave the damage you are imaging? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your multi-modal failure analysis of metal lines in chiplet integration looks at exactly where thermal stress leaves its evidence.
-
-We make diamond wafers and plates that go into these packages as spreaders, aimed at flattening the gradients that drive that damage.
-
-Has diamond come up as a spreader option in the chiplet packages you analyse, or is the material set still copper and ceramic?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-12,T2,displacement,Mei-Chien Lu,EA Technology,N,polycrystalline-CVD-diamond-wafer,Manufacturing Challenges of Hybrid Bonding for Chiplets Heterogenerous Integration,https://doi.org/10.1115/1.4068767,2025,laid out the manufacturing challenges of hybrid bonding for chiplet heterogeneous integration,hybrid bonding and chiplet thermal budgets,"Hi Mei-Chien,
+12,T2,core,Feras Eid,Intel (United Kingdom),N,copper-diamond-composite,Cold Sprayed Copper-Diamond Composites for Thermal Management of Semiconductor Packages,https://doi.org/10.4071/001c.128390,2025,built cold sprayed copper diamond composites for semiconductor package thermal management,cold spray copper diamond for package spreading,"Hi Feras,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Intel's cold-sprayed copper-diamond work, has buying finished diamond composite come up alongside depositing it in house? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your paper on the manufacturing challenges of hybrid bonding for chiplets is candid about how tight the process window gets.
-
-We make polycrystalline diamond wafers and plates used as in package spreaders, where surface finish has to meet the bonding requirement.
-
-I am curious whether diamond has come up as a spreader option in your hybrid bonding work, or whether copper and ceramic remain the default.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-13,T2,displacement,Merouane Ouhab,Mitsubishi Electric (France),N,copper-diamond-composite,Power Modules Lifetime Estimation Under Compound Tests,https://doi.org/10.1109/tpel.2026.3688002,2026,estimated power module lifetime under compound test conditions,power module lifetime under compound tests,"Hi Merouane,
+13,T2,displacement,Mei-Chien Lu,EA Technology,N,polycrystalline-CVD-diamond-wafer,Manufacturing Challenges of Hybrid Bonding for Chiplets Heterogenerous Integration,https://doi.org/10.1115/1.4068767,2025,laid out the manufacturing challenges of hybrid bonding for chiplet heterogeneous integration,hybrid bonding and chiplet thermal budgets,"Hi Mei-Chien,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For EA Technology's hybrid bonding work for chiplets, has diamond come up as a way to add spreading where surface finish has to meet the bonding window? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your lifetime estimation work on power modules under compound tests treats thermomechanical stress as the thing that actually sets service life.
-
-We make copper diamond and aluminum diamond composite for baseplates, with CTE targeted toward the die stack so the cycling drives less strain into the joints.
-
-Has a diamond composite baseplate come up as an option in your lifetime work, or is the material set fixed for now?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-14,T2,displacement,Nils Zöllner,Infineon Technologies (Germany),N,copper-diamond-composite,Lifetime prediction for power modules in wind-energy converters based on temperature variations in a large area substrate solder connection,https://doi.org/10.1016/j.microrel.2025.115665,2025,predicted power module lifetime in wind energy converters from temperature variation across a large area substrate,large area substrate temperature spread in converters,"Hi Nils,
+14,T2,core,Zifeng Huang,Integrated Optoelectronics (Norway),N,polycrystalline-CVD-diamond-wafer,Direct Integration of Polycrystalline Diamond With 3C‐SiC for Enhanced Thermal Management in GaN HEMTs: Impact of Grain Structure and Interface Engineering,https://doi.org/10.1002/admt.202500437,2025,integrated polycrystalline diamond with SiC for GaN HEMT thermal management and tracked the effect of grain structure,grain structure in diamond integrated GaN HEMTs,"Hi Zifeng,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Integrated Optoelectronics' diamond-on-SiC integration for GaN HEMTs, has sourcing diamond externally come up alongside growing it, or is in-house growth the committed route? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your lifetime work on wind converter modules keys off temperature variation across a large area substrate, a spreading problem before a cooling one.
-
-We make copper diamond and aluminum diamond composite baseplates and bulk CVD diamond, aimed at flattening exactly that lateral spread.
-
-I am curious whether diamond composite has come up as a baseplate option in that work, or whether the substrate set is fixed.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-15,T2,displacement,Shin Uegaki,Mitsubishi Electric (Japan),N,copper-diamond-composite,Power Modules Lifetime Estimation Under Compound Tests,https://doi.org/10.1109/tpel.2026.3688002,2026,estimated power module lifetime under compound test conditions,power module lifetime under compound tests,"Hi Shin,
+15,T2,displacement,Merouane Ouhab,Mitsubishi Electric (France),N,copper-diamond-composite,Power Modules Lifetime Estimation Under Compound Tests,https://doi.org/10.1109/tpel.2026.3688002,2026,estimated power module lifetime under compound test conditions,power module lifetime under compound tests,"Hi Merouane,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Mitsubishi Electric's power module lifetime work, has diamond come up as a way to reduce the thermomechanical stress that sets service life? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your lifetime estimation work on power modules under compound tests treats thermomechanical stress as the thing that actually sets service life.
-
-We make copper diamond and aluminum diamond composite for baseplates, with CTE targeted toward the die stack so the cycling drives less strain into the joints.
-
-Has a diamond composite baseplate come up as an option in your lifetime work, or is the material set fixed for now?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-16,T2,displacement,Stefano Spagna,Quantum Design (United States),N,polycrystalline-CVD-diamond-wafer,Multi-Modal Approach for Quality Control and Failure Analysis of Metal Lines for Chiplets Integration,https://doi.org/10.1093/mam/ozaf048.166,2025,built a multi-modal quality control and failure analysis approach for metal lines in chiplet integration,failure analysis of metal lines in chiplet integration,"Hi Stefano,
+16,T2,core,Brian Bersch,Northrop Grumman (United States),N,polycrystalline-CVD-diamond-wafer,Performance Enhancement of GaN Super-Lattice Castellated Field-Effect Transistors (SLCFETs) via Topside Integration of Near-Isotropic Polycrystalline Diamond,https://doi.org/10.1109/led.2025.3602825,2025,integrated nanocrystalline diamond on the topside of GaN super-lattice castellated FETs,topside diamond on GaN castellated FETs,"Hi Brian,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Northrop Grumman's topside diamond work on GaN castellated FETs, has a substrate-side diamond route been evaluated alongside the topside one? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your multi-modal failure analysis of metal lines in chiplet integration looks at exactly where thermal stress leaves its evidence.
-
-We make diamond wafers and plates that go into these packages as spreaders, aimed at flattening the gradients that drive that damage.
-
-Has diamond come up as a spreader option in the chiplet packages you analyse, or is the material set still copper and ceramic?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-17,T2,displacement,Woopoung Kim,Samsung (United States),N,polycrystalline-CVD-diamond-wafer,Heterogeneous Packaging Technologies for Chiplet and Memory Integration,https://doi.org/10.4071/001c.129076,2025,worked on heterogeneous packaging for chiplet and memory integration,chiplet and memory integration thermal path,"Hi Woopoung,
+17,T2,displacement,Nils Zöllner,Infineon Technologies (Germany),N,copper-diamond-composite,Lifetime prediction for power modules in wind-energy converters based on temperature variations in a large area substrate solder connection,https://doi.org/10.1016/j.microrel.2025.115665,2025,predicted power module lifetime in wind energy converters from temperature variation across a large area substrate,large area substrate temperature spread in converters,"Hi Nils,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Infineon Technologies' wind converter power modules, has diamond come up as a way to flatten the temperature spread across a large-area substrate? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your work on heterogeneous packaging for chiplet and memory integration runs into the thermal ceiling that stacking memory beside logic creates.
-
-We make polycrystalline CVD diamond wafers and single crystal plates used as in package spreaders, placed where the stack concentrates heat.
-
-Has diamond come up as a spreader option in your packaging work, or is copper and ceramic still the default assumption?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-18,T2,displacement,Yan Li,Samsung (United States),N,polycrystalline-CVD-diamond-wafer,Heterogeneous Packaging Technologies for Chiplet and Memory Integration,https://doi.org/10.4071/001c.129076,2025,worked on heterogeneous packaging for chiplet and memory integration,chiplet and memory integration thermal path,"Hi Yan,
+18,T2,core,Changsug Lee,Taiwan Semiconductor Manufacturing Company (Taiwan),N,single-crystal-CVD-diamond-plate,MPCVD diamond thin films as heat spreaders for back end of the line (BEOL) silicon chip fabrication,https://doi.org/10.1016/j.diamond.2025.112999,2025,used MPCVD diamond thin films as heat spreaders in back end of line silicon fabrication,diamond thin films in the BEOL stack,"Hi Changsug,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Taiwan Semiconductor Manufacturing's BEOL diamond heat spreader work, has sourcing plates to a specified thickness and finish come up alongside growing them in line? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work on heterogeneous packaging for chiplet and memory integration runs into the thermal ceiling that stacking memory beside logic creates.
-
-We make polycrystalline CVD diamond wafers and single crystal plates used as in package spreaders, placed where the stack concentrates heat.
-
-Has diamond come up as a spreader option in your packaging work, or is copper and ceramic still the default assumption?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-19,T2,displacement,Alessandro Sitta,STMicroelectronics (Italy),N,copper-diamond-composite,Effects of the pin-fins cooler roughness on the thermo-fluid dynamics performance of a SiC power module,https://doi.org/10.1016/j.ijft.2024.100609,2024,quantified how pin fin cooler roughness changes thermo-fluid performance in a SiC power module,pin fin roughness in SiC module cooling,"Hi Alessandro,
+19,T2,displacement,Shin Uegaki,Mitsubishi Electric (Japan),N,copper-diamond-composite,Power Modules Lifetime Estimation Under Compound Tests,https://doi.org/10.1109/tpel.2026.3688002,2026,estimated power module lifetime under compound test conditions,power module lifetime under compound tests,"Hi Shin,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Mitsubishi Electric's power module lifetime work, has diamond come up as a way to reduce the thermomechanical stress that sets service life? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your study on pin fin cooler roughness in a SiC power module works the convective side of a budget where the conduction path often dominates.
-
-We make copper diamond and aluminum diamond composite baseplates, which change how much heat reaches those fins and how evenly it arrives.
-
-I am curious whether diamond composite has come up as a baseplate option upstream of the cooler, or whether that layer is fixed.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-20,T2,displacement,Collin Hitchcock,GE Global Research (United States),N,copper-diamond-composite,SiC Power Module Packaging Using Printed Electronics Materials and Processes,https://doi.org/10.1109/tcpmt.2024.3453209,2024,built SiC power module packaging from printed electronics materials and processes,printed process routes for SiC module packaging,"Hi Collin,
+20,T2,displacement,Stefano Spagna,Quantum Design (United States),N,polycrystalline-CVD-diamond-wafer,Multi-Modal Approach for Quality Control and Failure Analysis of Metal Lines for Chiplets Integration,https://doi.org/10.1093/mam/ozaf048.166,2025,built a multi-modal quality control and failure analysis approach for metal lines in chiplet integration,failure analysis of metal lines in chiplet integration,"Hi Stefano,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Quantum Design's chiplet failure analysis work, has diamond come up as a way to flatten the gradients that leave the damage you are imaging? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your work on SiC power module packaging with printed materials and processes rethinks the stack rather than optimising the existing one.
-
-We make copper diamond and aluminum diamond composite with CTE targeted to the die, plus bulk CVD diamond where the spreader has to do more work.
-
-Has a diamond composite layer come up as an option in that printed stack, or is the material set settled?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-21,T2,displacement,Rejoy Surendran,Henkel (Germany),N,single-crystal-CVD-diamond-plate,Enhancing Semiconductor Package Reliability through Mechanical Property Optimization of Pressureless Sintering Die Attach Adhesives,https://doi.org/10.4071/001c.94312,2024,optimized the mechanical properties of pressureless sintered die attach for package reliability,sintered die attach and what sits under it,"Hi Rejoy,
+21,T2,core,Hsiaokang Chang,Taiwan Semiconductor Manufacturing Company (Taiwan),N,single-crystal-CVD-diamond-plate,MPCVD diamond thin films as heat spreaders for back end of the line (BEOL) silicon chip fabrication,https://doi.org/10.1016/j.diamond.2025.112999,2025,used MPCVD diamond thin films as heat spreaders in back end of line silicon fabrication,diamond thin films in the BEOL stack,"Hi Hsiaokang,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Taiwan Semiconductor Manufacturing's BEOL diamond heat spreader work, has sourcing plates to a specified thickness and finish come up alongside growing them in line? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work on pressureless sintered die attach treats joint mechanics as the reliability lever, which puts weight on what the die is attached to.
-
-We make single crystal diamond plates and diamond composite substrates with CTE targeted to the die, so the joint sees less mismatch.
-
-I am curious whether diamond has come up as a substrate under the sintered joint in your work, or whether ceramic remains the default.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-22,T2,displacement,Xuan Hong,Henkel (Germany),N,single-crystal-CVD-diamond-plate,Enhancing Semiconductor Package Reliability through Mechanical Property Optimization of Pressureless Sintering Die Attach Adhesives,https://doi.org/10.4071/001c.94312,2024,optimized the mechanical properties of pressureless sintered die attach for package reliability,sintered die attach and what sits under it,"Hi Xuan,
+22,T2,displacement,Woopoung Kim,Samsung (United States),N,polycrystalline-CVD-diamond-wafer,Heterogeneous Packaging Technologies for Chiplet and Memory Integration,https://doi.org/10.4071/001c.129076,2025,worked on heterogeneous packaging for chiplet and memory integration,chiplet and memory integration thermal path,"Hi Woopoung,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Samsung's chiplet and memory integration work, has diamond come up as a way to pull heat out of the stack where memory sits beside logic? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your work on pressureless sintered die attach treats joint mechanics as the reliability lever, which puts weight on what the die is attached to.
-
-We make single crystal diamond plates and diamond composite substrates with CTE targeted to the die, so the joint sees less mismatch.
-
-I am curious whether diamond has come up as a substrate under the sintered joint in your work, or whether ceramic remains the default.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-23,T2,core,Feras Eid,Intel (United Kingdom),N,copper-diamond-composite,Cold Sprayed Copper-Diamond Composites for Thermal Management of Semiconductor Packages,https://doi.org/10.4071/001c.128390,2025,built cold sprayed copper diamond composites for semiconductor package thermal management,cold spray copper diamond for package spreading,"Hi Feras,
+23,T2,core,Hsin-Yen Huang,Taiwan Semiconductor Manufacturing Company (Taiwan),N,single-crystal-CVD-diamond-plate,MPCVD diamond thin films as heat spreaders for back end of the line (BEOL) silicon chip fabrication,https://doi.org/10.1016/j.diamond.2025.112999,2025,used MPCVD diamond thin films as heat spreaders in back end of line silicon fabrication,diamond thin films in the BEOL stack,"Hi Hsin-Yen,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Taiwan Semiconductor Manufacturing's BEOL diamond heat spreader work, has sourcing plates to a specified thickness and finish come up alongside growing them in line? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your cold spray work on copper diamond composites for packages goes after the same problem we do, from the deposition side.
-
-We supply copper diamond and aluminum diamond composite with CTE targeted to silicon or GaN, plus bulk diamond when the spreader carries more.
-
-I am curious whether sourcing finished diamond composite has come up alongside growing it in house, or whether cold spray is the settled route.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-24,T2,core,Zifeng Huang,Integrated Optoelectronics (Norway),N,polycrystalline-CVD-diamond-wafer,Direct Integration of Polycrystalline Diamond With 3C‐SiC for Enhanced Thermal Management in GaN HEMTs: Impact of Grain Structure and Interface Engineering,https://doi.org/10.1002/admt.202500437,2025,integrated polycrystalline diamond with SiC for GaN HEMT thermal management and tracked the effect of grain structure,grain structure in diamond integrated GaN HEMTs,"Hi Zifeng,
+24,T2,displacement,Yan Li,Samsung (United States),N,polycrystalline-CVD-diamond-wafer,Heterogeneous Packaging Technologies for Chiplet and Memory Integration,https://doi.org/10.4071/001c.129076,2025,worked on heterogeneous packaging for chiplet and memory integration,chiplet and memory integration thermal path,"Hi Yan,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Samsung's chiplet and memory integration work, has diamond come up as a way to pull heat out of the stack where memory sits beside logic? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your work integrating polycrystalline diamond with SiC for GaN HEMTs shows how much grain structure near the interface decides the result.
-
-We grow polycrystalline CVD diamond wafers and single crystal plates, and we can talk concretely about nucleation side quality rather than just bulk numbers.
-
-Has sourcing diamond externally come up alongside growing it in your process, or is in house growth the committed route?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-25,T2,core,Brian Bersch,Northrop Grumman (United States),N,polycrystalline-CVD-diamond-wafer,Performance Enhancement of GaN Super-Lattice Castellated Field-Effect Transistors (SLCFETs) via Topside Integration of Near-Isotropic Polycrystalline Diamond,https://doi.org/10.1109/led.2025.3602825,2025,integrated nanocrystalline diamond on the topside of GaN super-lattice castellated FETs,topside diamond on GaN castellated FETs,"Hi Brian,
+25,T2,core,Kuang-Wei Yang,Taiwan Semiconductor Manufacturing Company (Taiwan),N,single-crystal-CVD-diamond-plate,MPCVD diamond thin films as heat spreaders for back end of the line (BEOL) silicon chip fabrication,https://doi.org/10.1016/j.diamond.2025.112999,2025,used MPCVD diamond thin films as heat spreaders in back end of line silicon fabrication,diamond thin films in the BEOL stack,"Hi Kuang-Wei,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Taiwan Semiconductor Manufacturing's BEOL diamond heat spreader work, has sourcing plates to a specified thickness and finish come up alongside growing them in line? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your topside nanocrystalline diamond work on GaN castellated FETs goes after the heat before it has to cross the whole stack.
-
-We grow single crystal diamond plates and polycrystalline wafers, and we work on GaN on diamond where the diamond sits under the device.
-
-I am curious whether a substrate side diamond route has been evaluated alongside the topside one, or whether topside is where the programme is committed.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-26,T2,displacement,Byung‐Sung Kim,Samsung (South Korea),N,polycrystalline-CVD-diamond-wafer,"Advances and Future Challenges in Monolithic 3D Integrated Logic, Power, and Optoelectronics Technologies for Tightly Interconnected Intelligent Systems",https://doi.org/10.1021/acsnano.5c15601,2026,"mapped the challenges of monolithic three dimensional integration across logic, power and optoelectronics",thermal ceiling in monolithic 3D integration,"Hi Byung‐Sung,
+26,T2,displacement,Alessandro Sitta,STMicroelectronics (Italy),N,copper-diamond-composite,Effects of the pin-fins cooler roughness on the thermo-fluid dynamics performance of a SiC power module,https://doi.org/10.1016/j.ijft.2024.100609,2024,quantified how pin fin cooler roughness changes thermo-fluid performance in a SiC power module,pin fin roughness in SiC module cooling,"Hi Alessandro,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For STMicroelectronics' SiC power module cooling work, has diamond come up as a way to change how much heat reaches the fins, and how evenly it arrives? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your work on monolithic three dimensional integration across logic, power and optoelectronics runs straight into the heat removal problem that stacking creates.
-
-We make polycrystalline CVD diamond wafers and single crystal plates used as spreaders inside such stacks, where there is nowhere else for the heat to go sideways.
-
-Has diamond come up as a spreader option in that integration work, or is the material set still copper and ceramic?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-27,T2,core,Changsug Lee,Taiwan Semiconductor Manufacturing Company (Taiwan),N,single-crystal-CVD-diamond-plate,MPCVD diamond thin films as heat spreaders for back end of the line (BEOL) silicon chip fabrication,https://doi.org/10.1016/j.diamond.2025.112999,2025,used MPCVD diamond thin films as heat spreaders in back end of line silicon fabrication,diamond thin films in the BEOL stack,"Hi Changsug,
+27,T2,core,Michael Dornetshumer,EV Group (Austria),N,single-crystal-CVD-diamond-plate,Low temperature bonding of diamond heat spreaders for advanced thermal management,https://doi.org/10.35848/1347-4065/adc699,2025,demonstrated low temperature bonding of diamond heat spreaders for advanced thermal management,low temperature bonding of diamond spreaders,"Hi Michael,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For EV Group's low-temperature diamond bonding work, are you sourcing diamond externally, or is growth in house the committed route? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work putting MPCVD diamond thin films into back end of line fabrication moves the spreader inside the process flow rather than bolting it on later.
-
-We grow single crystal diamond plates and polycrystalline wafers, supplied to a specified thickness and finish rather than as a standard part.
-
-I am curious whether sourcing diamond externally has come up alongside growing it in line, or whether deposition is the committed route.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-28,T2,displacement,Chen-Chao Wang,Advanced Semiconductor Engineering (Taiwan),N,polycrystalline-CVD-diamond-wafer,Advanced Mechanical Analysis Workflow for Chiplets Integration Predictive Design,https://doi.org/10.4071/001c.129007,2025,built a predictive mechanical analysis workflow for chiplet integration,predictive mechanical modelling for chiplet stacks,"Hi Chen-Chao,
+28,T2,displacement,Collin Hitchcock,GE Global Research (United States),N,copper-diamond-composite,SiC Power Module Packaging Using Printed Electronics Materials and Processes,https://doi.org/10.1109/tcpmt.2024.3453209,2024,built SiC power module packaging from printed electronics materials and processes,printed process routes for SiC module packaging,"Hi Collin,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For GE Global Research's printed SiC module packaging, has diamond come up as a way to put a CTE-matched layer under the die in a rebuilt stack? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your predictive mechanical workflow for chiplet integration models the warpage and stress that thermal mismatch drives through the stack.
-
-We make CVD diamond wafers and diamond composite with CTE targeted to silicon or GaN, which changes the mismatch your model is being asked to absorb.
-
-Has diamond come up as a material option in those workflows, or is the library still copper and ceramic?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-29,T2,displacement,Cheng‐Chi Wang,InnoLux (Taiwan),N,polycrystalline-CVD-diamond-wafer,Low-loss polymeric waveguides for co-packaged optics on glass substrates,https://doi.org/10.1088/2515-7647/ae079b,2025,developed low loss polymeric waveguides for co-packaged optics on glass substrates,thermal stability around polymer waveguides on glass,"Hi Cheng‐Chi,
+29,T2,core,Michael P. Stocker,Northrop Grumman (United States),N,polycrystalline-CVD-diamond-wafer,Performance Enhancement of GaN Super-Lattice Castellated Field-Effect Transistors (SLCFETs) via Topside Integration of Near-Isotropic Polycrystalline Diamond,https://doi.org/10.1109/led.2025.3602825,2025,integrated nanocrystalline diamond on the topside of GaN super-lattice castellated FETs,topside diamond on GaN castellated FETs,"Hi Michael,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Northrop Grumman's topside diamond work on GaN castellated FETs, has a substrate-side diamond route been evaluated alongside the topside one? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your low loss polymer waveguide work on glass sits in a package where a temperature gradient shows up directly as an optical penalty.
-
-We make diamond wafers and plates used as in package spreaders, aimed at holding that gradient flat around the optical path.
-
-I am curious whether diamond has come up as a spreader option next to the waveguide layer, or whether the thermal design stays with copper and ceramic.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-30,T2,displacement,Chinli Kou,Advanced Semiconductor Engineering (Taiwan),N,polycrystalline-CVD-diamond-wafer,Advanced Mechanical Analysis Workflow for Chiplets Integration Predictive Design,https://doi.org/10.4071/001c.129007,2025,built a predictive mechanical analysis workflow for chiplet integration,predictive mechanical modelling for chiplet stacks,"Hi Chinli,
+30,T2,displacement,Rejoy Surendran,Henkel (Germany),N,single-crystal-CVD-diamond-plate,Enhancing Semiconductor Package Reliability through Mechanical Property Optimization of Pressureless Sintering Die Attach Adhesives,https://doi.org/10.4071/001c.94312,2024,optimized the mechanical properties of pressureless sintered die attach for package reliability,sintered die attach and what sits under it,"Hi Rejoy,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Henkel's sintered die-attach reliability work, has diamond come up as a way to cut the mismatch the sintered joint has to absorb? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your predictive mechanical workflow for chiplet integration models the warpage and stress that thermal mismatch drives through the stack.
-
-We make CVD diamond wafers and diamond composite with CTE targeted to silicon or GaN, which changes the mismatch your model is being asked to absorb.
-
-Has diamond come up as a material option in those workflows, or is the library still copper and ceramic?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-31,T2,displacement,Darshit Jangid,Quantum Design (Germany),N,polycrystalline-CVD-diamond-wafer,Multi-Modal Approach for Quality Control and Failure Analysis of Metal Lines for Chiplets Integration,https://doi.org/10.1093/mam/ozaf048.166,2025,built a multi-modal quality control and failure analysis approach for metal lines in chiplet integration,failure analysis of metal lines in chiplet integration,"Hi Darshit,
+31,T2,core,Robert S. Howell,Northrop Grumman (United States),N,polycrystalline-CVD-diamond-wafer,Performance Enhancement of GaN Super-Lattice Castellated Field-Effect Transistors (SLCFETs) via Topside Integration of Near-Isotropic Polycrystalline Diamond,https://doi.org/10.1109/led.2025.3602825,2025,integrated nanocrystalline diamond on the topside of GaN super-lattice castellated FETs,topside diamond on GaN castellated FETs,"Hi Robert,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Northrop Grumman's topside diamond work on GaN castellated FETs, has a substrate-side diamond route been evaluated alongside the topside one? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your multi-modal failure analysis of metal lines in chiplet integration looks at exactly where thermal stress leaves its evidence.
-
-We make diamond wafers and plates that go into these packages as spreaders, aimed at flattening the gradients that drive that damage.
-
-Has diamond come up as a spreader option in the chiplet packages you analyse, or is the material set still copper and ceramic?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-32,T2,displacement,David Übelacker,Infineon Technologies (Germany),N,copper-diamond-composite,Lifetime prediction for power modules in wind-energy converters based on temperature variations in a large area substrate solder connection,https://doi.org/10.1016/j.microrel.2025.115665,2025,predicted power module lifetime in wind energy converters from temperature variation across a large area substrate,large area substrate temperature spread in converters,"Hi David,
+32,T2,displacement,Xuan Hong,Henkel (Germany),N,single-crystal-CVD-diamond-plate,Enhancing Semiconductor Package Reliability through Mechanical Property Optimization of Pressureless Sintering Die Attach Adhesives,https://doi.org/10.4071/001c.94312,2024,optimized the mechanical properties of pressureless sintered die attach for package reliability,sintered die attach and what sits under it,"Hi Xuan,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Henkel's sintered die-attach reliability work, has diamond come up as a way to cut the mismatch the sintered joint has to absorb? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your lifetime work on wind converter modules keys off temperature variation across a large area substrate, a spreading problem before a cooling one.
-
-We make copper diamond and aluminum diamond composite baseplates and bulk CVD diamond, aimed at flattening exactly that lateral spread.
-
-I am curious whether diamond composite has come up as a baseplate option in that work, or whether the substrate set is fixed.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-33,T2,displacement,Deockho Kim,Korea Electric Power Corporation (South Korea),N,copper-diamond-composite,Thermal-Stress-Induced Degradation Monitoring and Deep-Neural-Network-Driven Lifetime Prediction of IGBT Modules in a Two-Level SVPWM Inverter,https://doi.org/10.3390/electronics15081678,2026,monitored thermal stress degradation and predicted IGBT module lifetime in a two level converter,thermal stress degradation in IGBT modules,"Hi Deockho,
+33,T2,core,Shao‐Kuan Lee,Taiwan Semiconductor Manufacturing Company (Taiwan),N,single-crystal-CVD-diamond-plate,MPCVD diamond thin films as heat spreaders for back end of the line (BEOL) silicon chip fabrication,https://doi.org/10.1016/j.diamond.2025.112999,2025,used MPCVD diamond thin films as heat spreaders in back end of line silicon fabrication,diamond thin films in the BEOL stack,"Hi Shao‐Kuan,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Taiwan Semiconductor Manufacturing's BEOL diamond heat spreader work, has sourcing plates to a specified thickness and finish come up alongside growing them in line? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your degradation monitoring and lifetime prediction work on IGBT modules in a two level converter is built on how much thermal stress the stack accumulates.
-
-We make copper diamond and aluminum diamond composite baseplates with CTE targeted to the die, which changes the stress the model is tracking.
-
-Has a diamond composite baseplate come up as an option in that work, or is the module construction fixed?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-34,T2,displacement,Hajo Frerichs,Quantum Design (Germany),N,polycrystalline-CVD-diamond-wafer,Multi-Modal Approach for Quality Control and Failure Analysis of Metal Lines for Chiplets Integration,https://doi.org/10.1093/mam/ozaf048.166,2025,built a multi-modal quality control and failure analysis approach for metal lines in chiplet integration,failure analysis of metal lines in chiplet integration,"Hi Hajo,
+34,T2,displacement,Byung‐Sung Kim,Samsung (South Korea),N,polycrystalline-CVD-diamond-wafer,"Advances and Future Challenges in Monolithic 3D Integrated Logic, Power, and Optoelectronics Technologies for Tightly Interconnected Intelligent Systems",https://doi.org/10.1021/acsnano.5c15601,2026,"mapped the challenges of monolithic three dimensional integration across logic, power and optoelectronics",thermal ceiling in monolithic 3D integration,"Hi Byung‐Sung,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Samsung's monolithic three-dimensional integration work, has diamond come up as a way to move heat sideways where a stack gives it nowhere else to go? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your multi-modal failure analysis of metal lines in chiplet integration looks at exactly where thermal stress leaves its evidence.
-
-We make diamond wafers and plates that go into these packages as spreaders, aimed at flattening the gradients that drive that damage.
-
-Has diamond come up as a spreader option in the chiplet packages you analyse, or is the material set still copper and ceramic?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-35,T2,core,Hsiaokang Chang,Taiwan Semiconductor Manufacturing Company (Taiwan),N,single-crystal-CVD-diamond-plate,MPCVD diamond thin films as heat spreaders for back end of the line (BEOL) silicon chip fabrication,https://doi.org/10.1016/j.diamond.2025.112999,2025,used MPCVD diamond thin films as heat spreaders in back end of line silicon fabrication,diamond thin films in the BEOL stack,"Hi Hsiaokang,
+35,T2,core,Tobias Wernicke,EV Group (Austria),N,single-crystal-CVD-diamond-plate,Low temperature bonding of diamond heat spreaders for advanced thermal management,https://doi.org/10.35848/1347-4065/adc699,2025,demonstrated low temperature bonding of diamond heat spreaders for advanced thermal management,low temperature bonding of diamond spreaders,"Hi Tobias,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For EV Group's low-temperature diamond bonding work, are you sourcing diamond externally, or is growth in house the committed route? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work putting MPCVD diamond thin films into back end of line fabrication moves the spreader inside the process flow rather than bolting it on later.
-
-We grow single crystal diamond plates and polycrystalline wafers, supplied to a specified thickness and finish rather than as a standard part.
-
-I am curious whether sourcing diamond externally has come up alongside growing it in line, or whether deposition is the committed route.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-36,T2,core,Hsin-Yen Huang,Taiwan Semiconductor Manufacturing Company (Taiwan),N,single-crystal-CVD-diamond-plate,MPCVD diamond thin films as heat spreaders for back end of the line (BEOL) silicon chip fabrication,https://doi.org/10.1016/j.diamond.2025.112999,2025,used MPCVD diamond thin films as heat spreaders in back end of line silicon fabrication,diamond thin films in the BEOL stack,"Hi Hsin-Yen,
+36,T2,displacement,Chen-Chao Wang,Advanced Semiconductor Engineering (Taiwan),N,polycrystalline-CVD-diamond-wafer,Advanced Mechanical Analysis Workflow for Chiplets Integration Predictive Design,https://doi.org/10.4071/001c.129007,2025,built a predictive mechanical analysis workflow for chiplet integration,predictive mechanical modelling for chiplet stacks,"Hi Chen-Chao,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Advanced Semiconductor Engineering's predictive mechanical modelling for chiplets, has diamond come up as a way to cut the CTE mismatch your warpage models have to absorb? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your work putting MPCVD diamond thin films into back end of line fabrication moves the spreader inside the process flow rather than bolting it on later.
-
-We grow single crystal diamond plates and polycrystalline wafers, supplied to a specified thickness and finish rather than as a standard part.
-
-I am curious whether sourcing diamond externally has come up alongside growing it in line, or whether deposition is the committed route.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-37,T2,displacement,Ilyong Lee,Korea Electric Power Corporation (South Korea),N,copper-diamond-composite,Thermal-Stress-Induced Degradation Monitoring and Deep-Neural-Network-Driven Lifetime Prediction of IGBT Modules in a Two-Level SVPWM Inverter,https://doi.org/10.3390/electronics15081678,2026,monitored thermal stress degradation and predicted IGBT module lifetime in a two level converter,thermal stress degradation in IGBT modules,"Hi Ilyong,
+37,T2,core,Yu Li,Quartz Corp (Norway),N,single-crystal-CVD-diamond-plate,Synergistic optimization of plasma uniformity and active species density in MPCVD systems: A study based on multiphysics simulation and response surface methodology,https://doi.org/10.1016/j.vacuum.2026.115568,2026,simulated plasma uniformity and active species density in MPCVD reactors,plasma uniformity in MPCVD reactors,"Hi Yu,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Quartz's MPCVD reactor modelling, is the focus the reactor itself, or the devices the diamond ends up in? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your degradation monitoring and lifetime prediction work on IGBT modules in a two level converter is built on how much thermal stress the stack accumulates.
-
-We make copper diamond and aluminum diamond composite baseplates with CTE targeted to the die, which changes the stress the model is tracking.
-
-Has a diamond composite baseplate come up as an option in that work, or is the module construction fixed?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-38,T2,displacement,Jia-Huei Lin,InnoLux (Taiwan),N,polycrystalline-CVD-diamond-wafer,Low-loss polymeric waveguides for co-packaged optics on glass substrates,https://doi.org/10.1088/2515-7647/ae079b,2025,developed low loss polymeric waveguides for co-packaged optics on glass substrates,thermal stability around polymer waveguides on glass,"Hi Jia-Huei,
+38,T2,displacement,Cheng‐Chi Wang,InnoLux (Taiwan),N,polycrystalline-CVD-diamond-wafer,Low-loss polymeric waveguides for co-packaged optics on glass substrates,https://doi.org/10.1088/2515-7647/ae079b,2025,developed low loss polymeric waveguides for co-packaged optics on glass substrates,thermal stability around polymer waveguides on glass,"Hi Cheng‐Chi,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For InnoLux's polymer waveguide work on glass, has diamond come up as a way to hold the gradient flat around the optical path? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your low loss polymer waveguide work on glass sits in a package where a temperature gradient shows up directly as an optical penalty.
-
-We make diamond wafers and plates used as in package spreaders, aimed at holding that gradient flat around the optical path.
-
-I am curious whether diamond has come up as a spreader option next to the waveguide layer, or whether the thermal design stays with copper and ceramic.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-39,T2,displacement,Jimin Kwon,Samsung (South Korea),N,polycrystalline-CVD-diamond-wafer,"Advances and Future Challenges in Monolithic 3D Integrated Logic, Power, and Optoelectronics Technologies for Tightly Interconnected Intelligent Systems",https://doi.org/10.1021/acsnano.5c15601,2026,"mapped the challenges of monolithic three dimensional integration across logic, power and optoelectronics",thermal ceiling in monolithic 3D integration,"Hi Jimin,
+39,T2,core,Jilei Lyu,Nano Carbon (Poland),N,single-crystal-CVD-diamond-plate,Optimizing MPCVD systems for diamond growth through advanced microwave transmission theory,https://doi.org/10.1016/j.jcrysgro.2024.128008,2024,optimized MPCVD reactor design for diamond growth using microwave transmission theory,microwave coupling in MPCVD growth,"Hi Jilei,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Nano Carbon's MPCVD reactor design work, is the focus the reactor itself, or the devices the diamond ends up in? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work on monolithic three dimensional integration across logic, power and optoelectronics runs straight into the heat removal problem that stacking creates.
-
-We make polycrystalline CVD diamond wafers and single crystal plates used as spreaders inside such stacks, where there is nowhere else for the heat to go sideways.
-
-Has diamond come up as a spreader option in that integration work, or is the material set still copper and ceramic?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-40,T2,displacement,Jiwook Kwon,Samsung (South Korea),N,polycrystalline-CVD-diamond-wafer,"Advances and Future Challenges in Monolithic 3D Integrated Logic, Power, and Optoelectronics Technologies for Tightly Interconnected Intelligent Systems",https://doi.org/10.1021/acsnano.5c15601,2026,"mapped the challenges of monolithic three dimensional integration across logic, power and optoelectronics",thermal ceiling in monolithic 3D integration,"Hi Jiwook,
+40,T2,displacement,Chinli Kou,Advanced Semiconductor Engineering (Taiwan),N,polycrystalline-CVD-diamond-wafer,Advanced Mechanical Analysis Workflow for Chiplets Integration Predictive Design,https://doi.org/10.4071/001c.129007,2025,built a predictive mechanical analysis workflow for chiplet integration,predictive mechanical modelling for chiplet stacks,"Hi Chinli,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Advanced Semiconductor Engineering's predictive mechanical modelling for chiplets, has diamond come up as a way to cut the CTE mismatch your warpage models have to absorb? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your work on monolithic three dimensional integration across logic, power and optoelectronics runs straight into the heat removal problem that stacking creates.
-
-We make polycrystalline CVD diamond wafers and single crystal plates used as spreaders inside such stacks, where there is nowhere else for the heat to go sideways.
-
-Has diamond come up as a spreader option in that integration work, or is the material set still copper and ceramic?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-41,T2,core,Kuang-Wei Yang,Taiwan Semiconductor Manufacturing Company (Taiwan),N,single-crystal-CVD-diamond-plate,MPCVD diamond thin films as heat spreaders for back end of the line (BEOL) silicon chip fabrication,https://doi.org/10.1016/j.diamond.2025.112999,2025,used MPCVD diamond thin films as heat spreaders in back end of line silicon fabrication,diamond thin films in the BEOL stack,"Hi Kuang-Wei,
+41,T2,core,Xia Kong,Nano Carbon (Poland),N,single-crystal-CVD-diamond-plate,Optimizing MPCVD systems for diamond growth through advanced microwave transmission theory,https://doi.org/10.1016/j.jcrysgro.2024.128008,2024,optimized MPCVD reactor design for diamond growth using microwave transmission theory,microwave coupling in MPCVD growth,"Hi Xia,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Nano Carbon's MPCVD reactor design work, is the focus the reactor itself, or the devices the diamond ends up in? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work putting MPCVD diamond thin films into back end of line fabrication moves the spreader inside the process flow rather than bolting it on later.
-
-We grow single crystal diamond plates and polycrystalline wafers, supplied to a specified thickness and finish rather than as a standard part.
-
-I am curious whether sourcing diamond externally has come up alongside growing it in line, or whether deposition is the committed route.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-42,T2,displacement,LIANG I-CHANG,InnoLux (Taiwan),N,polycrystalline-CVD-diamond-wafer,Low-loss polymeric waveguides for co-packaged optics on glass substrates,https://doi.org/10.1088/2515-7647/ae079b,2025,developed low loss polymeric waveguides for co-packaged optics on glass substrates,thermal stability around polymer waveguides on glass,"Hi LIANG,
+42,T2,displacement,Darshit Jangid,Quantum Design (Germany),N,polycrystalline-CVD-diamond-wafer,Multi-Modal Approach for Quality Control and Failure Analysis of Metal Lines for Chiplets Integration,https://doi.org/10.1093/mam/ozaf048.166,2025,built a multi-modal quality control and failure analysis approach for metal lines in chiplet integration,failure analysis of metal lines in chiplet integration,"Hi Darshit,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Quantum Design's chiplet failure analysis work, has diamond come up as a way to flatten the gradients that leave the damage you are imaging? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your low loss polymer waveguide work on glass sits in a package where a temperature gradient shows up directly as an optical penalty.
-
-We make diamond wafers and plates used as in package spreaders, aimed at holding that gradient flat around the optical path.
-
-I am curious whether diamond has come up as a spreader option next to the waveguide layer, or whether the thermal design stays with copper and ceramic.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-43,T2,core,Michael Dornetshumer,EV Group (Austria),N,single-crystal-CVD-diamond-plate,Low temperature bonding of diamond heat spreaders for advanced thermal management,https://doi.org/10.35848/1347-4065/adc699,2025,demonstrated low temperature bonding of diamond heat spreaders for advanced thermal management,low temperature bonding of diamond spreaders,"Hi Michael,
+43,T2,displacement,David Übelacker,Infineon Technologies (Germany),N,copper-diamond-composite,Lifetime prediction for power modules in wind-energy converters based on temperature variations in a large area substrate solder connection,https://doi.org/10.1016/j.microrel.2025.115665,2025,predicted power module lifetime in wind energy converters from temperature variation across a large area substrate,large area substrate temperature spread in converters,"Hi David,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Infineon Technologies' wind converter power modules, has diamond come up as a way to flatten the temperature spread across a large-area substrate? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your low temperature bonding work on diamond heat spreaders removes one of the practical reasons teams give up on diamond in the package.
-
-We grow the spreaders themselves, single crystal CVD diamond plates and polycrystalline diamond wafers, with surface finish specified for bonding rather than left as grown.
-
-I am curious what you are sourcing diamond from today, and whether plate flatness and finish are the limiting variables in that bond.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-44,T2,core,Michael P. Stocker,Northrop Grumman (United States),N,polycrystalline-CVD-diamond-wafer,Performance Enhancement of GaN Super-Lattice Castellated Field-Effect Transistors (SLCFETs) via Topside Integration of Near-Isotropic Polycrystalline Diamond,https://doi.org/10.1109/led.2025.3602825,2025,integrated nanocrystalline diamond on the topside of GaN super-lattice castellated FETs,topside diamond on GaN castellated FETs,"Hi Michael,
+44,T2,displacement,Deockho Kim,Korea Electric Power Corporation (South Korea),N,copper-diamond-composite,Thermal-Stress-Induced Degradation Monitoring and Deep-Neural-Network-Driven Lifetime Prediction of IGBT Modules in a Two-Level SVPWM Inverter,https://doi.org/10.3390/electronics15081678,2026,monitored thermal stress degradation and predicted IGBT module lifetime in a two level converter,thermal stress degradation in IGBT modules,"Hi Deockho,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Korea Electric Power's IGBT degradation and lifetime work, has diamond come up as a way to reduce the thermal stress your models are tracking? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your topside nanocrystalline diamond work on GaN castellated FETs goes after the heat before it has to cross the whole stack.
-
-We grow single crystal diamond plates and polycrystalline wafers, and we work on GaN on diamond where the diamond sits under the device.
-
-I am curious whether a substrate side diamond route has been evaluated alongside the topside one, or whether topside is where the programme is committed.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-45,T2,displacement,Nicolas Degrenne,Mitsubishi Electric (France),N,copper-diamond-composite,Power Modules Lifetime Estimation Under Compound Tests,https://doi.org/10.1109/tpel.2026.3688002,2026,estimated power module lifetime under compound test conditions,power module lifetime under compound tests,"Hi Nicolas,
+45,T2,displacement,Hajo Frerichs,Quantum Design (Germany),N,polycrystalline-CVD-diamond-wafer,Multi-Modal Approach for Quality Control and Failure Analysis of Metal Lines for Chiplets Integration,https://doi.org/10.1093/mam/ozaf048.166,2025,built a multi-modal quality control and failure analysis approach for metal lines in chiplet integration,failure analysis of metal lines in chiplet integration,"Hi Hajo,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Quantum Design's chiplet failure analysis work, has diamond come up as a way to flatten the gradients that leave the damage you are imaging? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your lifetime estimation work on power modules under compound tests treats thermomechanical stress as the thing that actually sets service life.
-
-We make copper diamond and aluminum diamond composite for baseplates, with CTE targeted toward the die stack so the cycling drives less strain into the joints.
-
-Has a diamond composite baseplate come up as an option in your lifetime work, or is the material set fixed for now?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-46,T2,displacement,Oliver Schilling,Infineon Technologies (Germany),N,copper-diamond-composite,Lifetime prediction for power modules in wind-energy converters based on temperature variations in a large area substrate solder connection,https://doi.org/10.1016/j.microrel.2025.115665,2025,predicted power module lifetime in wind energy converters from temperature variation across a large area substrate,large area substrate temperature spread in converters,"Hi Oliver,
+46,T2,displacement,Ilyong Lee,Korea Electric Power Corporation (South Korea),N,copper-diamond-composite,Thermal-Stress-Induced Degradation Monitoring and Deep-Neural-Network-Driven Lifetime Prediction of IGBT Modules in a Two-Level SVPWM Inverter,https://doi.org/10.3390/electronics15081678,2026,monitored thermal stress degradation and predicted IGBT module lifetime in a two level converter,thermal stress degradation in IGBT modules,"Hi Ilyong,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Korea Electric Power's IGBT degradation and lifetime work, has diamond come up as a way to reduce the thermal stress your models are tracking? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your lifetime work on wind converter modules keys off temperature variation across a large area substrate, a spreading problem before a cooling one.
-
-We make copper diamond and aluminum diamond composite baseplates and bulk CVD diamond, aimed at flattening exactly that lateral spread.
-
-I am curious whether diamond composite has come up as a baseplate option in that work, or whether the substrate set is fixed.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-47,T2,displacement,Robert Patti,NHanced Semiconductors (United States),N,polycrystalline-CVD-diamond-wafer,The Future of Electronics Packaging is Chiplet Architecture,https://doi.org/10.37665/smctrsc40814,2025,argued that chiplet architecture is the future of electronics packaging,thermal limits on chiplet packaging,"Hi Robert,
+47,T2,displacement,Jia-Huei Lin,InnoLux (Taiwan),N,polycrystalline-CVD-diamond-wafer,Low-loss polymeric waveguides for co-packaged optics on glass substrates,https://doi.org/10.1088/2515-7647/ae079b,2025,developed low loss polymeric waveguides for co-packaged optics on glass substrates,thermal stability around polymer waveguides on glass,"Hi Jia-Huei,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For InnoLux's polymer waveguide work on glass, has diamond come up as a way to hold the gradient flat around the optical path? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your position on chiplet architecture as the direction for electronics packaging matches what we keep hearing from the thermal side of the same transition.
-
-We make polycrystalline CVD diamond wafers and diamond plates that go into the package as spreaders, aimed at the hotspots that chiplet stacking concentrates.
-
-Has diamond come up as a spreader option in the packaging roadmaps you work on, or is the assumption still copper and ceramic?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-48,T2,core,Robert S. Howell,Northrop Grumman (United States),N,polycrystalline-CVD-diamond-wafer,Performance Enhancement of GaN Super-Lattice Castellated Field-Effect Transistors (SLCFETs) via Topside Integration of Near-Isotropic Polycrystalline Diamond,https://doi.org/10.1109/led.2025.3602825,2025,integrated nanocrystalline diamond on the topside of GaN super-lattice castellated FETs,topside diamond on GaN castellated FETs,"Hi Robert,
+48,T2,displacement,Jimin Kwon,Samsung (South Korea),N,polycrystalline-CVD-diamond-wafer,"Advances and Future Challenges in Monolithic 3D Integrated Logic, Power, and Optoelectronics Technologies for Tightly Interconnected Intelligent Systems",https://doi.org/10.1021/acsnano.5c15601,2026,"mapped the challenges of monolithic three dimensional integration across logic, power and optoelectronics",thermal ceiling in monolithic 3D integration,"Hi Jimin,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Samsung's monolithic three-dimensional integration work, has diamond come up as a way to move heat sideways where a stack gives it nowhere else to go? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your topside nanocrystalline diamond work on GaN castellated FETs goes after the heat before it has to cross the whole stack.
-
-We grow single crystal diamond plates and polycrystalline wafers, and we work on GaN on diamond where the diamond sits under the device.
-
-I am curious whether a substrate side diamond route has been evaluated alongside the topside one, or whether topside is where the programme is committed.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-49,T2,core,Shao‐Kuan Lee,Taiwan Semiconductor Manufacturing Company (Taiwan),N,single-crystal-CVD-diamond-plate,MPCVD diamond thin films as heat spreaders for back end of the line (BEOL) silicon chip fabrication,https://doi.org/10.1016/j.diamond.2025.112999,2025,used MPCVD diamond thin films as heat spreaders in back end of line silicon fabrication,diamond thin films in the BEOL stack,"Hi Shao‐Kuan,
+49,T2,displacement,Jiwook Kwon,Samsung (South Korea),N,polycrystalline-CVD-diamond-wafer,"Advances and Future Challenges in Monolithic 3D Integrated Logic, Power, and Optoelectronics Technologies for Tightly Interconnected Intelligent Systems",https://doi.org/10.1021/acsnano.5c15601,2026,"mapped the challenges of monolithic three dimensional integration across logic, power and optoelectronics",thermal ceiling in monolithic 3D integration,"Hi Jiwook,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Samsung's monolithic three-dimensional integration work, has diamond come up as a way to move heat sideways where a stack gives it nowhere else to go? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your work putting MPCVD diamond thin films into back end of line fabrication moves the spreader inside the process flow rather than bolting it on later.
-
-We grow single crystal diamond plates and polycrystalline wafers, supplied to a specified thickness and finish rather than as a standard part.
-
-I am curious whether sourcing diamond externally has come up alongside growing it in line, or whether deposition is the committed route.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-50,T2,core,Tobias Wernicke,EV Group (Austria),N,single-crystal-CVD-diamond-plate,Low temperature bonding of diamond heat spreaders for advanced thermal management,https://doi.org/10.35848/1347-4065/adc699,2025,demonstrated low temperature bonding of diamond heat spreaders for advanced thermal management,low temperature bonding of diamond spreaders,"Hi Tobias,
+50,T2,displacement,LIANG I-CHANG,InnoLux (Taiwan),N,polycrystalline-CVD-diamond-wafer,Low-loss polymeric waveguides for co-packaged optics on glass substrates,https://doi.org/10.1088/2515-7647/ae079b,2025,developed low loss polymeric waveguides for co-packaged optics on glass substrates,thermal stability around polymer waveguides on glass,"Hi LIANG,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For InnoLux's polymer waveguide work on glass, has diamond come up as a way to hold the gradient flat around the optical path? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your low temperature bonding work on diamond heat spreaders removes one of the practical reasons teams give up on diamond in the package.
-
-We grow the spreaders themselves, single crystal CVD diamond plates and polycrystalline diamond wafers, with surface finish specified for bonding rather than left as grown.
-
-I am curious what you are sourcing diamond from today, and whether plate flatness and finish are the limiting variables in that bond.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-51,T2,core,Yu Li,Quartz Corp (Norway),N,single-crystal-CVD-diamond-plate,Synergistic optimization of plasma uniformity and active species density in MPCVD systems: A study based on multiphysics simulation and response surface methodology,https://doi.org/10.1016/j.vacuum.2026.115568,2026,simulated plasma uniformity and active species density in MPCVD reactors,plasma uniformity in MPCVD reactors,"Hi Yu,
+51,T2,displacement,Nicolas Degrenne,Mitsubishi Electric (France),N,copper-diamond-composite,Power Modules Lifetime Estimation Under Compound Tests,https://doi.org/10.1109/tpel.2026.3688002,2026,estimated power module lifetime under compound test conditions,power module lifetime under compound tests,"Hi Nicolas,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Mitsubishi Electric's power module lifetime work, has diamond come up as a way to reduce the thermomechanical stress that sets service life? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your multiphysics work on plasma uniformity and active species density in MPCVD systems is about the part of diamond growth that decides whether the result is usable.
-
-We run MPCVD growth for single crystal plates and polycrystalline wafers aimed at thermal applications in electronics packaging.
-
-I am curious whether your interest here is on the reactor side or the application side, since the two rarely sit in the same group.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-52,T2,core,Jilei Lyu,Nano Carbon (Poland),N,single-crystal-CVD-diamond-plate,Optimizing MPCVD systems for diamond growth through advanced microwave transmission theory,https://doi.org/10.1016/j.jcrysgro.2024.128008,2024,optimized MPCVD reactor design for diamond growth using microwave transmission theory,microwave coupling in MPCVD growth,"Hi Jilei,
+52,T2,displacement,Oliver Schilling,Infineon Technologies (Germany),N,copper-diamond-composite,Lifetime prediction for power modules in wind-energy converters based on temperature variations in a large area substrate solder connection,https://doi.org/10.1016/j.microrel.2025.115665,2025,predicted power module lifetime in wind energy converters from temperature variation across a large area substrate,large area substrate temperature spread in converters,"Hi Oliver,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Infineon Technologies' wind converter power modules, has diamond come up as a way to flatten the temperature spread across a large-area substrate? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your work optimizing MPCVD systems through microwave transmission theory targets the coupling that ends up limiting uniformity at scale.
-
-We run MPCVD growth for single crystal diamond plates and polycrystalline wafers used as thermal materials in high power electronics.
-
-Is your focus here on reactor design itself, or on the devices the diamond eventually goes into?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
-53,T2,core,Xia Kong,Nano Carbon (Poland),N,single-crystal-CVD-diamond-plate,Optimizing MPCVD systems for diamond growth through advanced microwave transmission theory,https://doi.org/10.1016/j.jcrysgro.2024.128008,2024,optimized MPCVD reactor design for diamond growth using microwave transmission theory,microwave coupling in MPCVD growth,"Hi Xia,
+53,T2,displacement,Robert Patti,NHanced Semiconductors (United States),N,polycrystalline-CVD-diamond-wafer,The Future of Electronics Packaging is Chiplet Architecture,https://doi.org/10.37665/smctrsc40814,2025,argued that chiplet architecture is the future of electronics packaging,thermal limits on chiplet packaging,"Hi Robert,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For NHanced Semiconductors' chiplet packaging roadmap, has diamond come up as a way to handle the hotspots that chiplet stacking concentrates? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
 
-Your work optimizing MPCVD systems through microwave transmission theory targets the coupling that ends up limiting uniformity at scale.
-
-We run MPCVD growth for single crystal diamond plates and polycrystalline wafers used as thermal materials in high power electronics.
-
-Is your focus here on reactor design itself, or on the devices the diamond eventually goes into?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 54,T2,displacement,Wujong Lee,Korea Electric Power Corporation (South Korea),N,copper-diamond-composite,Thermal-Stress-Induced Degradation Monitoring and Deep-Neural-Network-Driven Lifetime Prediction of IGBT Modules in a Two-Level SVPWM Inverter,https://doi.org/10.3390/electronics15081678,2026,monitored thermal stress degradation and predicted IGBT module lifetime in a two level converter,thermal stress degradation in IGBT modules,"Hi Wujong,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Korea Electric Power's IGBT degradation and lifetime work, has diamond come up as a way to reduce the thermal stress your models are tracking? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your degradation monitoring and lifetime prediction work on IGBT modules in a two level converter is built on how much thermal stress the stack accumulates.
-
-We make copper diamond and aluminum diamond composite baseplates with CTE targeted to the die, which changes the stress the model is tracking.
-
-Has a diamond composite baseplate come up as an option in that work, or is the module construction fixed?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 55,T2,displacement,Arun Gowda,GE Global Research (United States),N,copper-diamond-composite,SiC Power Module Packaging Using Printed Electronics Materials and Processes,https://doi.org/10.1109/tcpmt.2024.3453209,2024,built SiC power module packaging from printed electronics materials and processes,printed process routes for SiC module packaging,"Hi Arun,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For GE Global Research's printed SiC module packaging, has diamond come up as a way to put a CTE-matched layer under the die in a rebuilt stack? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your work on SiC power module packaging with printed materials and processes rethinks the stack rather than optimising the existing one.
-
-We make copper diamond and aluminum diamond composite with CTE targeted to the die, plus bulk CVD diamond where the spreader has to do more work.
-
-Has a diamond composite layer come up as an option in that printed stack, or is the material set settled?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 56,T2,displacement,Bo Xia,Henkel (Germany),N,single-crystal-CVD-diamond-plate,Enhancing Semiconductor Package Reliability through Mechanical Property Optimization of Pressureless Sintering Die Attach Adhesives,https://doi.org/10.4071/001c.94312,2024,optimized the mechanical properties of pressureless sintered die attach for package reliability,sintered die attach and what sits under it,"Hi Bo,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Henkel's sintered die-attach reliability work, has diamond come up as a way to cut the mismatch the sintered joint has to absorb? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work on pressureless sintered die attach treats joint mechanics as the reliability lever, which puts weight on what the die is attached to.
-
-We make single crystal diamond plates and diamond composite substrates with CTE targeted to the die, so the joint sees less mismatch.
-
-I am curious whether diamond has come up as a substrate under the sintered joint in your work, or whether ceramic remains the default.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 57,T2,displacement,Jeff Erlbaum,GE Global Research (United States),N,copper-diamond-composite,SiC Power Module Packaging Using Printed Electronics Materials and Processes,https://doi.org/10.1109/tcpmt.2024.3453209,2024,built SiC power module packaging from printed electronics materials and processes,printed process routes for SiC module packaging,"Hi Jeff,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For GE Global Research's printed SiC module packaging, has diamond come up as a way to put a CTE-matched layer under the die in a rebuilt stack? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your work on SiC power module packaging with printed materials and processes rethinks the stack rather than optimising the existing one.
-
-We make copper diamond and aluminum diamond composite with CTE targeted to the die, plus bulk CVD diamond where the spreader has to do more work.
-
-Has a diamond composite layer come up as an option in that printed stack, or is the material set settled?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 58,T2,displacement,Juliet Sanchez,Henkel (Germany),N,single-crystal-CVD-diamond-plate,Enhancing Semiconductor Package Reliability through Mechanical Property Optimization of Pressureless Sintering Die Attach Adhesives,https://doi.org/10.4071/001c.94312,2024,optimized the mechanical properties of pressureless sintered die attach for package reliability,sintered die attach and what sits under it,"Hi Juliet,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Henkel's sintered die-attach reliability work, has diamond come up as a way to cut the mismatch the sintered joint has to absorb? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work on pressureless sintered die attach treats joint mechanics as the reliability lever, which puts weight on what the die is attached to.
-
-We make single crystal diamond plates and diamond composite substrates with CTE targeted to the die, so the joint sees less mismatch.
-
-I am curious whether diamond has come up as a substrate under the sintered joint in your work, or whether ceramic remains the default.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 59,T2,displacement,Lina Bian,Henkel (Germany),N,single-crystal-CVD-diamond-plate,Enhancing Semiconductor Package Reliability through Mechanical Property Optimization of Pressureless Sintering Die Attach Adhesives,https://doi.org/10.4071/001c.94312,2024,optimized the mechanical properties of pressureless sintered die attach for package reliability,sintered die attach and what sits under it,"Hi Lina,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Henkel's sintered die-attach reliability work, has diamond come up as a way to cut the mismatch the sintered joint has to absorb? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work on pressureless sintered die attach treats joint mechanics as the reliability lever, which puts weight on what the die is attached to.
-
-We make single crystal diamond plates and diamond composite substrates with CTE targeted to the die, so the joint sees less mismatch.
-
-I am curious whether diamond has come up as a substrate under the sintered joint in your work, or whether ceramic remains the default.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 60,T2,displacement,Michele Calabretta,STMicroelectronics (Italy),N,copper-diamond-composite,Effects of the pin-fins cooler roughness on the thermo-fluid dynamics performance of a SiC power module,https://doi.org/10.1016/j.ijft.2024.100609,2024,quantified how pin fin cooler roughness changes thermo-fluid performance in a SiC power module,pin fin roughness in SiC module cooling,"Hi Michele,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For STMicroelectronics' SiC power module cooling work, has diamond come up as a way to change how much heat reaches the fins, and how evenly it arrives? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your study on pin fin cooler roughness in a SiC power module works the convective side of a budget where the conduction path often dominates.
-
-We make copper diamond and aluminum diamond composite baseplates, which change how much heat reaches those fins and how evenly it arrives.
-
-I am curious whether diamond composite has come up as a baseplate option upstream of the cooler, or whether that layer is fixed.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 61,T2,displacement,Noah Ekstrom,Henkel (Germany),N,single-crystal-CVD-diamond-plate,Enhancing Semiconductor Package Reliability through Mechanical Property Optimization of Pressureless Sintering Die Attach Adhesives,https://doi.org/10.4071/001c.94312,2024,optimized the mechanical properties of pressureless sintered die attach for package reliability,sintered die attach and what sits under it,"Hi Noah,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Henkel's sintered die-attach reliability work, has diamond come up as a way to cut the mismatch the sintered joint has to absorb? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work on pressureless sintered die attach treats joint mechanics as the reliability lever, which puts weight on what the die is attached to.
-
-We make single crystal diamond plates and diamond composite substrates with CTE targeted to the die, so the joint sees less mismatch.
-
-I am curious whether diamond has come up as a substrate under the sintered joint in your work, or whether ceramic remains the default.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 62,T2,displacement,Qizhuo Zhuo,Henkel (Germany),N,single-crystal-CVD-diamond-plate,Enhancing Semiconductor Package Reliability through Mechanical Property Optimization of Pressureless Sintering Die Attach Adhesives,https://doi.org/10.4071/001c.94312,2024,optimized the mechanical properties of pressureless sintered die attach for package reliability,sintered die attach and what sits under it,"Hi Qizhuo,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Henkel's sintered die-attach reliability work, has diamond come up as a way to cut the mismatch the sintered joint has to absorb? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work on pressureless sintered die attach treats joint mechanics as the reliability lever, which puts weight on what the die is attached to.
-
-We make single crystal diamond plates and diamond composite substrates with CTE targeted to the die, so the joint sees less mismatch.
-
-I am curious whether diamond has come up as a substrate under the sintered joint in your work, or whether ceramic remains the default.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 63,T2,displacement,Selene Hernandez,Henkel (Germany),N,single-crystal-CVD-diamond-plate,Enhancing Semiconductor Package Reliability through Mechanical Property Optimization of Pressureless Sintering Die Attach Adhesives,https://doi.org/10.4071/001c.94312,2024,optimized the mechanical properties of pressureless sintered die attach for package reliability,sintered die attach and what sits under it,"Hi Selene,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Henkel's sintered die-attach reliability work, has diamond come up as a way to cut the mismatch the sintered joint has to absorb? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work on pressureless sintered die attach treats joint mechanics as the reliability lever, which puts weight on what the die is attached to.
-
-We make single crystal diamond plates and diamond composite substrates with CTE targeted to the die, so the joint sees less mismatch.
-
-I am curious whether diamond has come up as a substrate under the sintered joint in your work, or whether ceramic remains the default.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 64,T2,displacement,Vincent Pang,Henkel (Germany),N,single-crystal-CVD-diamond-plate,Enhancing Semiconductor Package Reliability through Mechanical Property Optimization of Pressureless Sintering Die Attach Adhesives,https://doi.org/10.4071/001c.94312,2024,optimized the mechanical properties of pressureless sintered die attach for package reliability,sintered die attach and what sits under it,"Hi Vincent,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Henkel's sintered die-attach reliability work, has diamond come up as a way to cut the mismatch the sintered joint has to absorb? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work on pressureless sintered die attach treats joint mechanics as the reliability lever, which puts weight on what the die is attached to.
-
-We make single crystal diamond plates and diamond composite substrates with CTE targeted to the die, so the joint sees less mismatch.
-
-I am curious whether diamond has come up as a substrate under the sintered joint in your work, or whether ceramic remains the default.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 65,T2,displacement,Xinpei Cao,Henkel (Germany),N,single-crystal-CVD-diamond-plate,Enhancing Semiconductor Package Reliability through Mechanical Property Optimization of Pressureless Sintering Die Attach Adhesives,https://doi.org/10.4071/001c.94312,2024,optimized the mechanical properties of pressureless sintered die attach for package reliability,sintered die attach and what sits under it,"Hi Xinpei,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For Henkel's sintered die-attach reliability work, has diamond come up as a way to cut the mismatch the sintered joint has to absorb? Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized submounts are built to slot into existing designs.
 
-Your work on pressureless sintered die attach treats joint mechanics as the reliability lever, which puts weight on what the die is attached to.
-
-We make single crystal diamond plates and diamond composite substrates with CTE targeted to the die, so the joint sees less mismatch.
-
-I am curious whether diamond has come up as a substrate under the sintered joint in your work, or whether ceramic remains the default.
-
-Worth a quick conversation?
-Happy to send a short technical brief!
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,
 66,T2,displacement,Xiong Han,GE Global Research (United States),N,copper-diamond-composite,SiC Power Module Packaging Using Printed Electronics Materials and Processes,https://doi.org/10.1109/tcpmt.2024.3453209,2024,built SiC power module packaging from printed electronics materials and processes,printed process routes for SiC module packaging,"Hi Xiong,
 
-I am on the founding team at Kara Labs, a YC backed manufacturer of CVD diamond thermal materials.
+For GE Global Research's printed SiC module packaging, has diamond come up as a way to put a CTE-matched layer under the die in a rebuilt stack? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
 
-Your work on SiC power module packaging with printed materials and processes rethinks the stack rather than optimising the existing one.
-
-We make copper diamond and aluminum diamond composite with CTE targeted to the die, plus bulk CVD diamond where the spreader has to do more work.
-
-Has a diamond composite layer come up as an option in that printed stack, or is the material set settled?
-
-Happy to send a short technical brief either way.
+Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,

@@ -28,7 +28,7 @@ Source: Kara Labs preliminary spec booklet, July 2026.
 
 | # | Claim | Value | Status | Source | Owner | Date |
 | --- | --- | --- | --- | --- | --- | --- |
-| V1 | Single-crystal CVD diamond plate thermal conductivity | 2200+ W/m·K | VERIFIED | Spec booklet, Jul 2026 |  |  |
+| V1 | Single-crystal CVD diamond plate thermal conductivity | 2200+ W/m·K | VERIFIED | Spec booklet, Jul 2026 | Dharshini | 2026-08-20 |
 | V2 | SCD plate lateral size | 2 to 20 mm | VERIFIED | Spec booklet, Jul 2026 |  |  |
 | V3 | SCD plate thickness | 0.3 to 0.5 mm | VERIFIED | Spec booklet, Jul 2026 |  |  |
 | V4 | SCD plate polished surface roughness | Ra <2 to 30 nm | VERIFIED | Spec booklet, Jul 2026 |  |  |
