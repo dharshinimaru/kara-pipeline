@@ -299,6 +299,53 @@ def paper_pattern_a(body):
     return "Worth a quick conversation?" in body
 
 
+def today():
+    import datetime
+    return datetime.date.today().isoformat()
+
+
+def read_existing(path):
+    if not os.path.exists(path):
+        return []
+    with open(path, newline="", encoding="utf-8") as fh:
+        return [dict(r) for r in csv.DictReader(fh)]
+
+
+def append_rows(path, cols, rows):
+    """Append rows, writing a header only when creating the file."""
+    if not rows:
+        return
+    new = not os.path.exists(path)
+    os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
+    with open(path, "a", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=cols)
+        if new:
+            w.writeheader()
+        w.writerows(rows)
+
+
+def dedupe_keys(path):
+    """Keys already drafted: ORCID where present, else name plus affiliation."""
+    keys = set()
+    for r in read_existing(path):
+        orcid = (r.get("orcid") or "").strip()
+        if orcid:
+            keys.add(("orcid", orcid))
+        keys.add(("name", (r.get("author") or "").strip().lower(),
+                  (r.get("affiliation") or "").strip().lower()))
+    return keys
+
+
+def row_keys(r):
+    out = []
+    orcid = (r.get("orcid") or "").strip()
+    if orcid:
+        out.append(("orcid", orcid))
+    out.append(("name", (r.get("author") or "").strip().lower(),
+                (r.get("affiliation") or "").strip().lower()))
+    return out
+
+
 def norm_title(t):
     """Normalize a title for matching: unicode dashes, spacing, case."""
     t = (t or "")
@@ -356,16 +403,22 @@ def main():
     ap.add_argument("--out", default=os.path.join(here, "data", "review_batch.csv"))
     ap.add_argument("--log", default=os.path.join(here, "data", "draft_log.csv"))
     ap.add_argument("--limit", type=int, default=50)
+    ap.add_argument("--drafted", default=os.path.join(here, "data", "already_drafted.csv"))
     args = ap.parse_args()
 
     with open(args.sel, encoding="utf-8") as fh:
         sel = json.load(fh)
 
-    out_rows, log_rows, skipped = [], [], []
+    seen = dedupe_keys(args.drafted)
+    out_rows, log_rows, skipped, drafted_src = [], [], [], []
+    already = 0
     rank = 0
     for r in sel:
         if rank >= args.limit:
             break
+        if any(k in seen for k in row_keys(r)):
+            already += 1
+            continue
         paper = lookup_paper(r)
         fn = first_name(r["author"])
         if paper is None or not fn:
@@ -378,6 +431,8 @@ def main():
             skipped.append((r["author"], r["paper_title"], "; ".join(problems)))
             continue
         rank += 1
+        for k in row_keys(r):
+            seen.add(k)
         out_rows.append({
             "rank": rank,
             "tier": r["tier"],
@@ -397,6 +452,7 @@ def main():
             "linkedin_url": "",
             "approved": "",
         })
+        drafted_src.append(r)
         log_rows.append({
             "date": "", "author": r["author"], "orcid": r["orcid"],
             "affiliation": r["affiliation"], "tier": r["tier"],
@@ -408,20 +464,30 @@ def main():
         })
 
     os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
-    with open(args.out, "w", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=COLUMNS)
-        w.writeheader()
-        w.writerows(out_rows)
 
+    # Append, never overwrite. Existing rows keep the columns a human filled in
+    # (email, approved, and so on), and new people continue the rank sequence.
     log_cols = ["date", "author", "orcid", "affiliation", "tier", "product_line",
                 "asset", "channel", "subject", "paper_doi", "hook", "word_count",
                 "claims_used", "drafted_by"]
-    with open(args.log, "w", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, fieldnames=log_cols)
-        w.writeheader()
-        w.writerows(log_rows)
+    append_rows(args.log, log_cols, log_rows)
 
-    print("drafted %d, skipped %d" % (len(out_rows), len(skipped)), file=sys.stderr)
+    # The dedupe ledger for every future run.
+    append_rows(args.drafted, ["author", "orcid", "affiliation", "paper_doi", "date"],
+                [{"author": r["author"], "orcid": r.get("orcid", ""),
+                  "affiliation": r["affiliation"], "paper_doi": r["paper_doi"],
+                  "date": today()} for r in drafted_src])
+
+    existing = read_existing(args.out)
+    for i, row in enumerate(out_rows):
+        row["rank"] = len(existing) + i + 1
+    with open(args.out, "w", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=COLUMNS)
+        w.writeheader()
+        w.writerows(existing + out_rows)
+
+    print("drafted %d new, skipped %d, already drafted %d"
+          % (len(out_rows), len(skipped), already), file=sys.stderr)
     for a, t, why in skipped:
         print("  SKIP %-28s %-60s %s" % (a[:28], t[:60], why), file=sys.stderr)
 
