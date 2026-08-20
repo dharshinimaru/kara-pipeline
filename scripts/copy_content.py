@@ -31,7 +31,11 @@ The "5x copper" and "under 0.1 K/W" claims are NOT cleared and must not appear.
 
 # Claims cleared for use in copy. Key is the ledger row id.
 CLEARED_CLAIMS = {
-    "V1": "2200+ W/m·K",
+    "V1": "2200+ W/m·K",          # single-crystal CVD diamond
+    "V5": "1800+ W/m·K",          # polycrystalline CVD diamond wafer
+    "V7": "500 to 800+ W/m·K",    # copper-diamond, configuration-dependent
+    "V8": "350 to 500+ W/m·K",    # aluminum-diamond, configuration-dependent
+    "V11": "under 5 ppb",         # UHP SCD nitrogen
 }
 
 # One standard sentence per product line. Numbers appear only where a ledger
@@ -41,20 +45,23 @@ PRODUCT_SENTENCES = {
         "Kara's single-crystal CVD diamond runs 2200+ W/m·K, and our metallized "
         "submounts are built to slot into existing designs.", ["V1"]),
     "polycrystalline-CVD-diamond-wafer": (
-        "Kara makes polycrystalline CVD diamond wafers and single-crystal plates, "
-        "built to slot into existing package designs.", []),
+        "Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot "
+        "into existing package designs.", ["V5"]),
     "copper-diamond-composite": (
-        "Kara makes copper-diamond and aluminum-diamond composite with CTE "
-        "targeted to the die rather than the baseplate.", []),
+        "Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on "
+        "configuration, with CTE targeted to the die rather than the baseplate.",
+        ["V7"]),
     "aluminum-diamond-composite": (
-        "Kara makes aluminum-diamond and copper-diamond composite with CTE "
-        "targeted to the die, for cases where weight is the constraint.", []),
+        "Kara's aluminum-diamond composite runs 350 to 500+ W/m·K depending on "
+        "configuration, with CTE targeted to the die where weight is the "
+        "constraint.", ["V8"]),
     "GaN-on-diamond": (
         "Kara works on GaN-on-diamond, with the diamond under the device rather "
         "than added on top.", []),
     "UHP-and-engineered-SCD": (
-        "Kara grows ultra-high-purity single-crystal diamond with nitrogen held "
-        "very low, for cases where the substrate itself has to stop adding noise.", []),
+        "Kara grows ultra-high-purity single-crystal diamond with nitrogen under "
+        "5 ppb, for cases where the substrate itself has to stop adding noise.",
+        ["V11"]),
 }
 
 # work / benefit / hook / subject, keyed by DOI where stable, else by title.

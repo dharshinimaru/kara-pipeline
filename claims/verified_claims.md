@@ -29,16 +29,16 @@ Source: Kara Labs preliminary spec booklet, July 2026.
 | # | Claim | Value | Status | Source | Owner | Date |
 | --- | --- | --- | --- | --- | --- | --- |
 | V1 | Single-crystal CVD diamond plate thermal conductivity | 2200+ W/m·K | VERIFIED | Spec booklet, Jul 2026 | Dharshini | 2026-08-20 |
-| V2 | SCD plate lateral size | 2 to 20 mm | VERIFIED | Spec booklet, Jul 2026 |  |  |
-| V3 | SCD plate thickness | 0.3 to 0.5 mm | VERIFIED | Spec booklet, Jul 2026 |  |  |
-| V4 | SCD plate polished surface roughness | Ra <2 to 30 nm | VERIFIED | Spec booklet, Jul 2026 |  |  |
-| V5 | Polycrystalline CVD diamond wafer thermal conductivity | 1800+ W/m·K | VERIFIED | Spec booklet, Jul 2026 |  |  |
-| V6 | Polycrystalline wafer diameter | Up to 4 inch as-grown, or up to 6 inch | VERIFIED | Spec booklet, Jul 2026 |  |  |
-| V7 | Copper-diamond composite thermal conductivity | 500 to 800+ W/m·K, configuration-dependent | VERIFIED | Spec booklet, Jul 2026 |  |  |
-| V8 | Aluminum-diamond composite thermal conductivity | 350 to 500+ W/m·K, configuration-dependent | VERIFIED | Spec booklet, Jul 2026 |  |  |
-| V9 | Cu-diamond and Al-diamond CTE | Targets matched to Si or to GaN/GaAs | VERIFIED | Spec booklet, Jul 2026 |  |  |
-| V10 | GaN layer thickness on diamond | 0.5 to 5 µm | VERIFIED | Spec booklet, Jul 2026 |  |  |
-| V11 | Ultra-high-purity SCD nitrogen content | <5 ppb | VERIFIED | Spec booklet, Jul 2026 |  |  |
+| V2 | SCD plate lateral size | 2 to 20 mm | VERIFIED | Spec booklet, Jul 2026 |   Dharshini | 2026-08-20 |
+| V3 | SCD plate thickness | 0.3 to 0.5 mm | VERIFIED | Spec booklet, Jul 2026 |   Dharshini | 2026-08-20 |
+| V4 | SCD plate polished surface roughness | Ra <2 to 30 nm | VERIFIED | Spec booklet, Jul 2026 |   Dharshini | 2026-08-20 |
+| V5 | Polycrystalline CVD diamond wafer thermal conductivity | 1800+ W/m·K | VERIFIED | Spec booklet, Jul 2026 |   Dharshini | 2026-08-20 |
+| V6 | Polycrystalline wafer diameter | Up to 4 inch as-grown, or up to 6 inch | VERIFIED | Spec booklet, Jul 2026 |   Dharshini | 2026-08-20 |
+| V7 | Copper-diamond composite thermal conductivity | 500 to 800+ W/m·K, configuration-dependent | VERIFIED | Spec booklet, Jul 2026 |   Dharshini | 2026-08-20 |
+| V8 | Aluminum-diamond composite thermal conductivity | 350 to 500+ W/m·K, configuration-dependent | VERIFIED | Spec booklet, Jul 2026 |   Dharshini | 2026-08-20 |
+| V9 | Cu-diamond and Al-diamond CTE | Targets matched to Si or to GaN/GaAs | VERIFIED | Spec booklet, Jul 2026 |   Dharshini | 2026-08-20 |
+| V10 | GaN layer thickness on diamond | 0.5 to 5 µm | VERIFIED | Spec booklet, Jul 2026 |   Dharshini | 2026-08-20 |
+| V11 | Ultra-high-purity SCD nitrogen content | <5 ppb | VERIFIED | Spec booklet, Jul 2026 |   Dharshini | 2026-08-20 |
 
 **Booklet caveat that copy must respect:** the spec booklet describes these as
 *suggested starting points, not fixed design limits.* Copy must not present them

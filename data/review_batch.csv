@@ -1,42 +1,42 @@
 rank,tier,class,author,affiliation,affil_suspect,product_line,paper_title,paper_doi,paper_year,hook,subject,body,current_employer_verified,email,linkedin_url,approved,title,match_confidence,sent_in_digest
 1,T1,core,"Quni-Gudzinas, Rowan Brad",Q-Flex (United States),N,UHP-and-engineered-SCD,CRYOGENICALLY STABILIZED SYNTHETIC LATTICE ARCHITECTURE FOR FAULT-TOLERANT QUANTUM COMPUTING,https://doi.org/10.5281/zenodo.17709213,2026,proposed a cryogenically stabilized lattice architecture for fault tolerant quantum computing,substrate purity in cryogenic qubit lattices,"Hi Rowan,
 
-For Q-Flex's fault-tolerant quantum architecture work, has diamond come up as a way to hold coherence where the host substrate is what limits it? Kara grows ultra-high-purity single-crystal diamond with nitrogen held very low, for cases where the substrate itself has to stop adding noise.
+For Q-Flex's fault-tolerant quantum architecture work, has diamond come up as a way to hold coherence where the host substrate is what limits it? Kara grows ultra-high-purity single-crystal diamond with nitrogen under 5 ppb, for cases where the substrate itself has to stop adding noise.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 2,T1,displacement,Phani Suresh Paladugu,Synopsys (United States),N,polycrystalline-CVD-diamond-wafer,HBM4 Integration In AI/HPC Chiplet Architectures: Co-Design And Telemetry-Driven Optimization,https://doi.org/10.5281/zenodo.18816182,2026,co-designed HBM integration and telemetry driven optimization for AI and HPC chiplet architectures,thermal headroom in HBM chiplet co-design,"Hi Phani,
 
-For Synopsys' HBM chiplet integration work, has diamond come up as a way to improve the near-die thermal path where your telemetry shows the hotspots? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Synopsys' HBM chiplet integration work, has diamond come up as a way to improve the near-die thermal path where your telemetry shows the hotspots? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 3,T1,core,Wenhao Li,Intel (United Kingdom),N,copper-diamond-composite,Cold Sprayed Copper-Diamond Composites for Thermal Management of Semiconductor Packages,https://doi.org/10.4071/001c.128390,2025,built cold sprayed copper diamond composites for semiconductor package thermal management,cold spray copper diamond for package spreading,"Hi Wenhao,
 
-For Intel's cold-sprayed copper-diamond work, has buying finished diamond composite come up alongside depositing it in house? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For Intel's cold-sprayed copper-diamond work, has buying finished diamond composite come up alongside depositing it in house? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 4,T2,displacement,Charles Woychik,NHanced Semiconductors (United States),N,polycrystalline-CVD-diamond-wafer,The Future of Electronics Packaging is Chiplet Architecture,https://doi.org/10.37665/smctrsc40814,2025,argued that chiplet architecture is the future of electronics packaging,thermal limits on chiplet packaging,"Hi Charles,
 
-For NHanced Semiconductors' chiplet packaging roadmap, has diamond come up as a way to handle the hotspots that chiplet stacking concentrates? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For NHanced Semiconductors' chiplet packaging roadmap, has diamond come up as a way to handle the hotspots that chiplet stacking concentrates? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 5,T1,core,Yoshihiro TOMITA,Intel (United Kingdom),N,copper-diamond-composite,Cold Sprayed Copper-Diamond Composites for Thermal Management of Semiconductor Packages,https://doi.org/10.4071/001c.124091,2024,worked on cold sprayed copper diamond composites for semiconductor package thermal management,copper diamond composite in package thermal paths,"Hi Yoshihiro,
 
-For Intel's copper-diamond composite work, has buying finished diamond composite come up alongside depositing it in house? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For Intel's copper-diamond composite work, has buying finished diamond composite come up alongside depositing it in house? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,yoshihiro.tomita@intel.com,http://www.linkedin.com/in/yoshihirotomita,,Principal Engineer,name+company,2026-08-20
 6,T2,displacement,Chih-Ming Hung,MediaTek (Taiwan),N,polycrystalline-CVD-diamond-wafer,Heterogeneous Integration in Co-Packaged Optics,https://doi.org/10.1109/jetcas.2025.3590744,2025,worked on heterogeneous integration for co-packaged optics,thermal path in co-packaged optics integration,"Hi Chih-Ming,
 
-For MediaTek's co-packaged optics integration, has diamond come up as a way to hold the gradient flat where wavelength stability depends on it? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For MediaTek's co-packaged optics integration, has diamond come up as a way to hold the gradient flat where wavelength stability depends on it? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
@@ -50,70 +50,70 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,b.dielacher@evgroup.com,http://www.linkedin.com/in/bernd-dielacher-5b9933100,,Business Development Manager,name+company,2026-08-20
 8,T2,displacement,Guoyou Liu,"CRRC Zhuzhou Electric Locomotive Institute Company Ltd., Zhuzhou, China",N,copper-diamond-composite,Investigation on Creep-Fatigue Interaction Failure of Die-Attach Solder Layers in IGBTs Under Power Cycling,https://doi.org/10.1109/tpel.2025.3530991,2025,investigated creep fatigue interaction failure in IGBT die attach solder layers under power cycling,die attach creep fatigue under power cycling,"Hi Guoyou,
 
-For CRRC Zhuzhou Electric Locomotive Institute Company's IGBT die-attach reliability work, has diamond come up as a way to cut the CTE mismatch that drives creep fatigue in the solder? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For CRRC Zhuzhou Electric Locomotive Institute Company's IGBT die-attach reliability work, has diamond come up as a way to cut the CTE mismatch that drives creep fatigue in the solder? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 9,T2,core,Johanna Swan,Intel (United Kingdom),N,copper-diamond-composite,Cold Sprayed Copper-Diamond Composites for Thermal Management of Semiconductor Packages,https://doi.org/10.4071/001c.128390,2025,built cold sprayed copper diamond composites for semiconductor package thermal management,cold spray copper diamond for package spreading,"Hi Johanna,
 
-For Intel's cold-sprayed copper-diamond work, has buying finished diamond composite come up alongside depositing it in house? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For Intel's cold-sprayed copper-diamond work, has buying finished diamond composite come up alongside depositing it in house? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 10,T2,displacement,John Foley,Kulicke & Soffa (United States),N,polycrystalline-CVD-diamond-wafer,Advances in Vertical Wire Bonding Enable Low-Cost Shielding and Wafer Level Interconnect Solutions,https://doi.org/10.4071/001c.129015,2025,advanced vertical wire bonding for shielding and wafer level interconnect,wafer level interconnect and package thermal path,"Hi John,
 
-For Kulicke & Soffa's wafer-level interconnect work, has diamond come up as a way to add spreading at package level without fighting the interconnect scheme? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Kulicke & Soffa's wafer-level interconnect work, has diamond come up as a way to add spreading at package level without fighting the interconnect scheme? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,jfoley@kns.com,http://www.linkedin.com/in/john-foley-5721a610,,Director of Product Development,name+company,2026-08-20
 11,T2,displacement,Kerim T. Arat,Quantum Design (United States),N,polycrystalline-CVD-diamond-wafer,Multi-Modal Approach for Quality Control and Failure Analysis of Metal Lines for Chiplets Integration,https://doi.org/10.1093/mam/ozaf048.166,2025,built a multi-modal quality control and failure analysis approach for metal lines in chiplet integration,failure analysis of metal lines in chiplet integration,"Hi Kerim,
 
-For Quantum Design's chiplet failure analysis work, has diamond come up as a way to flatten the gradients that leave the damage you are imaging? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Quantum Design's chiplet failure analysis work, has diamond come up as a way to flatten the gradients that leave the damage you are imaging? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,karat@qdusa.com,http://www.linkedin.com/in/kerimarat,,Applications Engineering Supervisor,name+company,2026-08-20
 12,T2,core,Feras Eid,Intel (United Kingdom),N,copper-diamond-composite,Cold Sprayed Copper-Diamond Composites for Thermal Management of Semiconductor Packages,https://doi.org/10.4071/001c.128390,2025,built cold sprayed copper diamond composites for semiconductor package thermal management,cold spray copper diamond for package spreading,"Hi Feras,
 
-For Intel's cold-sprayed copper-diamond work, has buying finished diamond composite come up alongside depositing it in house? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For Intel's cold-sprayed copper-diamond work, has buying finished diamond composite come up alongside depositing it in house? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,feraseid@google.com,http://www.linkedin.com/in/feras-eid-77743116,,Tech Lead (AI/ML Physical Infrastructure),name-only,2026-08-20
 13,T2,displacement,Mei-Chien Lu,EA Technology,N,polycrystalline-CVD-diamond-wafer,Manufacturing Challenges of Hybrid Bonding for Chiplets Heterogenerous Integration,https://doi.org/10.1115/1.4068767,2025,laid out the manufacturing challenges of hybrid bonding for chiplet heterogeneous integration,hybrid bonding and chiplet thermal budgets,"Hi Mei-Chien,
 
-For EA Technology's hybrid bonding work for chiplets, has diamond come up as a way to add spreading where surface finish has to meet the bonding window? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For EA Technology's hybrid bonding work for chiplets, has diamond come up as a way to add spreading where surface finish has to meet the bonding window? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 14,T2,core,Zifeng Huang,Integrated Optoelectronics (Norway),N,polycrystalline-CVD-diamond-wafer,Direct Integration of Polycrystalline Diamond With 3C‐SiC for Enhanced Thermal Management in GaN HEMTs: Impact of Grain Structure and Interface Engineering,https://doi.org/10.1002/admt.202500437,2025,integrated polycrystalline diamond with SiC for GaN HEMT thermal management and tracked the effect of grain structure,grain structure in diamond integrated GaN HEMTs,"Hi Zifeng,
 
-For Integrated Optoelectronics' diamond-on-SiC integration for GaN HEMTs, has sourcing diamond externally come up alongside growing it, or is in-house growth the committed route? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Integrated Optoelectronics' diamond-on-SiC integration for GaN HEMTs, has sourcing diamond externally come up alongside growing it, or is in-house growth the committed route? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 15,T2,displacement,Merouane Ouhab,Mitsubishi Electric (France),N,copper-diamond-composite,Power Modules Lifetime Estimation Under Compound Tests,https://doi.org/10.1109/tpel.2026.3688002,2026,estimated power module lifetime under compound test conditions,power module lifetime under compound tests,"Hi Merouane,
 
-For Mitsubishi Electric's power module lifetime work, has diamond come up as a way to reduce the thermomechanical stress that sets service life? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For Mitsubishi Electric's power module lifetime work, has diamond come up as a way to reduce the thermomechanical stress that sets service life? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 16,T2,core,Brian Bersch,Northrop Grumman (United States),N,polycrystalline-CVD-diamond-wafer,Performance Enhancement of GaN Super-Lattice Castellated Field-Effect Transistors (SLCFETs) via Topside Integration of Near-Isotropic Polycrystalline Diamond,https://doi.org/10.1109/led.2025.3602825,2025,integrated nanocrystalline diamond on the topside of GaN super-lattice castellated FETs,topside diamond on GaN castellated FETs,"Hi Brian,
 
-For Northrop Grumman's topside diamond work on GaN castellated FETs, has a substrate-side diamond route been evaluated alongside the topside one? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Northrop Grumman's topside diamond work on GaN castellated FETs, has a substrate-side diamond route been evaluated alongside the topside one? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,brian.bersch@ngc.com,http://www.linkedin.com/in/brian-bersch,,Principal Process Integration Engineer,name+company,2026-08-20
 17,T2,displacement,Nils Zöllner,Infineon Technologies (Germany),N,copper-diamond-composite,Lifetime prediction for power modules in wind-energy converters based on temperature variations in a large area substrate solder connection,https://doi.org/10.1016/j.microrel.2025.115665,2025,predicted power module lifetime in wind energy converters from temperature variation across a large area substrate,large area substrate temperature spread in converters,"Hi Nils,
 
-For Infineon Technologies' wind converter power modules, has diamond come up as a way to flatten the temperature spread across a large-area substrate? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For Infineon Technologies' wind converter power modules, has diamond come up as a way to flatten the temperature spread across a large-area substrate? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
@@ -127,14 +127,14 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 19,T2,displacement,Shin Uegaki,Mitsubishi Electric (Japan),N,copper-diamond-composite,Power Modules Lifetime Estimation Under Compound Tests,https://doi.org/10.1109/tpel.2026.3688002,2026,estimated power module lifetime under compound test conditions,power module lifetime under compound tests,"Hi Shin,
 
-For Mitsubishi Electric's power module lifetime work, has diamond come up as a way to reduce the thermomechanical stress that sets service life? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For Mitsubishi Electric's power module lifetime work, has diamond come up as a way to reduce the thermomechanical stress that sets service life? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 20,T2,displacement,Stefano Spagna,Quantum Design (United States),N,polycrystalline-CVD-diamond-wafer,Multi-Modal Approach for Quality Control and Failure Analysis of Metal Lines for Chiplets Integration,https://doi.org/10.1093/mam/ozaf048.166,2025,built a multi-modal quality control and failure analysis approach for metal lines in chiplet integration,failure analysis of metal lines in chiplet integration,"Hi Stefano,
 
-For Quantum Design's chiplet failure analysis work, has diamond come up as a way to flatten the gradients that leave the damage you are imaging? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Quantum Design's chiplet failure analysis work, has diamond come up as a way to flatten the gradients that leave the damage you are imaging? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
@@ -148,7 +148,7 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 22,T2,displacement,Woopoung Kim,Samsung (United States),N,polycrystalline-CVD-diamond-wafer,Heterogeneous Packaging Technologies for Chiplet and Memory Integration,https://doi.org/10.4071/001c.129076,2025,worked on heterogeneous packaging for chiplet and memory integration,chiplet and memory integration thermal path,"Hi Woopoung,
 
-For Samsung's chiplet and memory integration work, has diamond come up as a way to pull heat out of the stack where memory sits beside logic? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Samsung's chiplet and memory integration work, has diamond come up as a way to pull heat out of the stack where memory sits beside logic? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
@@ -162,7 +162,7 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 24,T2,displacement,Yan Li,Samsung (United States),N,polycrystalline-CVD-diamond-wafer,Heterogeneous Packaging Technologies for Chiplet and Memory Integration,https://doi.org/10.4071/001c.129076,2025,worked on heterogeneous packaging for chiplet and memory integration,chiplet and memory integration thermal path,"Hi Yan,
 
-For Samsung's chiplet and memory integration work, has diamond come up as a way to pull heat out of the stack where memory sits beside logic? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Samsung's chiplet and memory integration work, has diamond come up as a way to pull heat out of the stack where memory sits beside logic? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
@@ -176,7 +176,7 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 26,T2,displacement,Alessandro Sitta,STMicroelectronics (Italy),N,copper-diamond-composite,Effects of the pin-fins cooler roughness on the thermo-fluid dynamics performance of a SiC power module,https://doi.org/10.1016/j.ijft.2024.100609,2024,quantified how pin fin cooler roughness changes thermo-fluid performance in a SiC power module,pin fin roughness in SiC module cooling,"Hi Alessandro,
 
-For STMicroelectronics' SiC power module cooling work, has diamond come up as a way to change how much heat reaches the fins, and how evenly it arrives? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For STMicroelectronics' SiC power module cooling work, has diamond come up as a way to change how much heat reaches the fins, and how evenly it arrives? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
@@ -190,14 +190,14 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,m.dornetshumer@evgroup.com,http://www.linkedin.com/in/michael-dornetshumer-029694235,,Teamleader - Process Technology ComBond,name+company,2026-08-20
 28,T2,displacement,Collin Hitchcock,GE Global Research (United States),N,copper-diamond-composite,SiC Power Module Packaging Using Printed Electronics Materials and Processes,https://doi.org/10.1109/tcpmt.2024.3453209,2024,built SiC power module packaging from printed electronics materials and processes,printed process routes for SiC module packaging,"Hi Collin,
 
-For GE Global Research's printed SiC module packaging, has diamond come up as a way to put a CTE-matched layer under the die in a rebuilt stack? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For GE Global Research's printed SiC module packaging, has diamond come up as a way to put a CTE-matched layer under the die in a rebuilt stack? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 29,T2,core,Michael P. Stocker,Northrop Grumman (United States),N,polycrystalline-CVD-diamond-wafer,Performance Enhancement of GaN Super-Lattice Castellated Field-Effect Transistors (SLCFETs) via Topside Integration of Near-Isotropic Polycrystalline Diamond,https://doi.org/10.1109/led.2025.3602825,2025,integrated nanocrystalline diamond on the topside of GaN super-lattice castellated FETs,topside diamond on GaN castellated FETs,"Hi Michael,
 
-For Northrop Grumman's topside diamond work on GaN castellated FETs, has a substrate-side diamond route been evaluated alongside the topside one? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Northrop Grumman's topside diamond work on GaN castellated FETs, has a substrate-side diamond route been evaluated alongside the topside one? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
@@ -211,7 +211,7 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,rejoy.surendran@henkel.com,http://www.linkedin.com/in/rejoy-surendran-26002915,,"Global Market Strategy Manager, Semiconductor",name+company,2026-08-20
 31,T2,core,Robert S. Howell,Northrop Grumman (United States),N,polycrystalline-CVD-diamond-wafer,Performance Enhancement of GaN Super-Lattice Castellated Field-Effect Transistors (SLCFETs) via Topside Integration of Near-Isotropic Polycrystalline Diamond,https://doi.org/10.1109/led.2025.3602825,2025,integrated nanocrystalline diamond on the topside of GaN super-lattice castellated FETs,topside diamond on GaN castellated FETs,"Hi Robert,
 
-For Northrop Grumman's topside diamond work on GaN castellated FETs, has a substrate-side diamond route been evaluated alongside the topside one? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Northrop Grumman's topside diamond work on GaN castellated FETs, has a substrate-side diamond route been evaluated alongside the topside one? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
@@ -232,7 +232,7 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 34,T2,displacement,Byung‐Sung Kim,Samsung (South Korea),N,polycrystalline-CVD-diamond-wafer,"Advances and Future Challenges in Monolithic 3D Integrated Logic, Power, and Optoelectronics Technologies for Tightly Interconnected Intelligent Systems",https://doi.org/10.1021/acsnano.5c15601,2026,"mapped the challenges of monolithic three dimensional integration across logic, power and optoelectronics",thermal ceiling in monolithic 3D integration,"Hi Byung‐Sung,
 
-For Samsung's monolithic three-dimensional integration work, has diamond come up as a way to move heat sideways where a stack gives it nowhere else to go? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Samsung's monolithic three-dimensional integration work, has diamond come up as a way to move heat sideways where a stack gives it nowhere else to go? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
@@ -246,7 +246,7 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,t.wernicke@evgroup.com,http://www.linkedin.com/in/tobias-wernicke-66b3b3105,,Process Technology Manager-Wafer Bonding,name+company,2026-08-20
 36,T2,displacement,Chen-Chao Wang,Advanced Semiconductor Engineering (Taiwan),N,polycrystalline-CVD-diamond-wafer,Advanced Mechanical Analysis Workflow for Chiplets Integration Predictive Design,https://doi.org/10.4071/001c.129007,2025,built a predictive mechanical analysis workflow for chiplet integration,predictive mechanical modelling for chiplet stacks,"Hi Chen-Chao,
 
-For Advanced Semiconductor Engineering's predictive mechanical modelling for chiplets, has diamond come up as a way to cut the CTE mismatch your warpage models have to absorb? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Advanced Semiconductor Engineering's predictive mechanical modelling for chiplets, has diamond come up as a way to cut the CTE mismatch your warpage models have to absorb? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
@@ -260,7 +260,7 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 38,T2,displacement,Cheng‐Chi Wang,InnoLux (Taiwan),N,polycrystalline-CVD-diamond-wafer,Low-loss polymeric waveguides for co-packaged optics on glass substrates,https://doi.org/10.1088/2515-7647/ae079b,2025,developed low loss polymeric waveguides for co-packaged optics on glass substrates,thermal stability around polymer waveguides on glass,"Hi Cheng‐Chi,
 
-For InnoLux's polymer waveguide work on glass, has diamond come up as a way to hold the gradient flat around the optical path? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For InnoLux's polymer waveguide work on glass, has diamond come up as a way to hold the gradient flat around the optical path? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
@@ -274,7 +274,7 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 40,T2,displacement,Chinli Kou,Advanced Semiconductor Engineering (Taiwan),N,polycrystalline-CVD-diamond-wafer,Advanced Mechanical Analysis Workflow for Chiplets Integration Predictive Design,https://doi.org/10.4071/001c.129007,2025,built a predictive mechanical analysis workflow for chiplet integration,predictive mechanical modelling for chiplet stacks,"Hi Chinli,
 
-For Advanced Semiconductor Engineering's predictive mechanical modelling for chiplets, has diamond come up as a way to cut the CTE mismatch your warpage models have to absorb? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Advanced Semiconductor Engineering's predictive mechanical modelling for chiplets, has diamond come up as a way to cut the CTE mismatch your warpage models have to absorb? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
@@ -288,98 +288,98 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 42,T2,displacement,Darshit Jangid,Quantum Design (Germany),N,polycrystalline-CVD-diamond-wafer,Multi-Modal Approach for Quality Control and Failure Analysis of Metal Lines for Chiplets Integration,https://doi.org/10.1093/mam/ozaf048.166,2025,built a multi-modal quality control and failure analysis approach for metal lines in chiplet integration,failure analysis of metal lines in chiplet integration,"Hi Darshit,
 
-For Quantum Design's chiplet failure analysis work, has diamond come up as a way to flatten the gradients that leave the damage you are imaging? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Quantum Design's chiplet failure analysis work, has diamond come up as a way to flatten the gradients that leave the damage you are imaging? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 43,T2,displacement,David Übelacker,Infineon Technologies (Germany),N,copper-diamond-composite,Lifetime prediction for power modules in wind-energy converters based on temperature variations in a large area substrate solder connection,https://doi.org/10.1016/j.microrel.2025.115665,2025,predicted power module lifetime in wind energy converters from temperature variation across a large area substrate,large area substrate temperature spread in converters,"Hi David,
 
-For Infineon Technologies' wind converter power modules, has diamond come up as a way to flatten the temperature spread across a large-area substrate? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For Infineon Technologies' wind converter power modules, has diamond come up as a way to flatten the temperature spread across a large-area substrate? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 44,T2,displacement,Deockho Kim,Korea Electric Power Corporation (South Korea),N,copper-diamond-composite,Thermal-Stress-Induced Degradation Monitoring and Deep-Neural-Network-Driven Lifetime Prediction of IGBT Modules in a Two-Level SVPWM Inverter,https://doi.org/10.3390/electronics15081678,2026,monitored thermal stress degradation and predicted IGBT module lifetime in a two level converter,thermal stress degradation in IGBT modules,"Hi Deockho,
 
-For Korea Electric Power's IGBT degradation and lifetime work, has diamond come up as a way to reduce the thermal stress your models are tracking? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For Korea Electric Power's IGBT degradation and lifetime work, has diamond come up as a way to reduce the thermal stress your models are tracking? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 45,T2,displacement,Hajo Frerichs,Quantum Design (Germany),N,polycrystalline-CVD-diamond-wafer,Multi-Modal Approach for Quality Control and Failure Analysis of Metal Lines for Chiplets Integration,https://doi.org/10.1093/mam/ozaf048.166,2025,built a multi-modal quality control and failure analysis approach for metal lines in chiplet integration,failure analysis of metal lines in chiplet integration,"Hi Hajo,
 
-For Quantum Design's chiplet failure analysis work, has diamond come up as a way to flatten the gradients that leave the damage you are imaging? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Quantum Design's chiplet failure analysis work, has diamond come up as a way to flatten the gradients that leave the damage you are imaging? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 46,T2,displacement,Ilyong Lee,Korea Electric Power Corporation (South Korea),N,copper-diamond-composite,Thermal-Stress-Induced Degradation Monitoring and Deep-Neural-Network-Driven Lifetime Prediction of IGBT Modules in a Two-Level SVPWM Inverter,https://doi.org/10.3390/electronics15081678,2026,monitored thermal stress degradation and predicted IGBT module lifetime in a two level converter,thermal stress degradation in IGBT modules,"Hi Ilyong,
 
-For Korea Electric Power's IGBT degradation and lifetime work, has diamond come up as a way to reduce the thermal stress your models are tracking? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For Korea Electric Power's IGBT degradation and lifetime work, has diamond come up as a way to reduce the thermal stress your models are tracking? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 47,T2,displacement,Jia-Huei Lin,InnoLux (Taiwan),N,polycrystalline-CVD-diamond-wafer,Low-loss polymeric waveguides for co-packaged optics on glass substrates,https://doi.org/10.1088/2515-7647/ae079b,2025,developed low loss polymeric waveguides for co-packaged optics on glass substrates,thermal stability around polymer waveguides on glass,"Hi Jia-Huei,
 
-For InnoLux's polymer waveguide work on glass, has diamond come up as a way to hold the gradient flat around the optical path? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For InnoLux's polymer waveguide work on glass, has diamond come up as a way to hold the gradient flat around the optical path? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 48,T2,displacement,Jimin Kwon,Samsung (South Korea),N,polycrystalline-CVD-diamond-wafer,"Advances and Future Challenges in Monolithic 3D Integrated Logic, Power, and Optoelectronics Technologies for Tightly Interconnected Intelligent Systems",https://doi.org/10.1021/acsnano.5c15601,2026,"mapped the challenges of monolithic three dimensional integration across logic, power and optoelectronics",thermal ceiling in monolithic 3D integration,"Hi Jimin,
 
-For Samsung's monolithic three-dimensional integration work, has diamond come up as a way to move heat sideways where a stack gives it nowhere else to go? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Samsung's monolithic three-dimensional integration work, has diamond come up as a way to move heat sideways where a stack gives it nowhere else to go? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 49,T2,displacement,Jiwook Kwon,Samsung (South Korea),N,polycrystalline-CVD-diamond-wafer,"Advances and Future Challenges in Monolithic 3D Integrated Logic, Power, and Optoelectronics Technologies for Tightly Interconnected Intelligent Systems",https://doi.org/10.1021/acsnano.5c15601,2026,"mapped the challenges of monolithic three dimensional integration across logic, power and optoelectronics",thermal ceiling in monolithic 3D integration,"Hi Jiwook,
 
-For Samsung's monolithic three-dimensional integration work, has diamond come up as a way to move heat sideways where a stack gives it nowhere else to go? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For Samsung's monolithic three-dimensional integration work, has diamond come up as a way to move heat sideways where a stack gives it nowhere else to go? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,j.kwon@samsung.com,http://www.linkedin.com/in/jiwook-kwon-dtco,,Principle Engineer,name+company,2026-08-20
 50,T2,displacement,LIANG I-CHANG,InnoLux (Taiwan),N,polycrystalline-CVD-diamond-wafer,Low-loss polymeric waveguides for co-packaged optics on glass substrates,https://doi.org/10.1088/2515-7647/ae079b,2025,developed low loss polymeric waveguides for co-packaged optics on glass substrates,thermal stability around polymer waveguides on glass,"Hi LIANG,
 
-For InnoLux's polymer waveguide work on glass, has diamond come up as a way to hold the gradient flat around the optical path? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For InnoLux's polymer waveguide work on glass, has diamond come up as a way to hold the gradient flat around the optical path? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 51,T2,displacement,Nicolas Degrenne,Mitsubishi Electric (France),N,copper-diamond-composite,Power Modules Lifetime Estimation Under Compound Tests,https://doi.org/10.1109/tpel.2026.3688002,2026,estimated power module lifetime under compound test conditions,power module lifetime under compound tests,"Hi Nicolas,
 
-For Mitsubishi Electric's power module lifetime work, has diamond come up as a way to reduce the thermomechanical stress that sets service life? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For Mitsubishi Electric's power module lifetime work, has diamond come up as a way to reduce the thermomechanical stress that sets service life? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,n.degrenne@fr.merce.mee.com,http://www.linkedin.com/in/nicolas-degrenne-0397254,,Research Manager - Health Management Technologies for Power Electronic Systems,name+company,2026-08-20
 52,T2,displacement,Oliver Schilling,Infineon Technologies (Germany),N,copper-diamond-composite,Lifetime prediction for power modules in wind-energy converters based on temperature variations in a large area substrate solder connection,https://doi.org/10.1016/j.microrel.2025.115665,2025,predicted power module lifetime in wind energy converters from temperature variation across a large area substrate,large area substrate temperature spread in converters,"Hi Oliver,
 
-For Infineon Technologies' wind converter power modules, has diamond come up as a way to flatten the temperature spread across a large-area substrate? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For Infineon Technologies' wind converter power modules, has diamond come up as a way to flatten the temperature spread across a large-area substrate? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 53,T2,displacement,Robert Patti,NHanced Semiconductors (United States),N,polycrystalline-CVD-diamond-wafer,The Future of Electronics Packaging is Chiplet Architecture,https://doi.org/10.37665/smctrsc40814,2025,argued that chiplet architecture is the future of electronics packaging,thermal limits on chiplet packaging,"Hi Robert,
 
-For NHanced Semiconductors' chiplet packaging roadmap, has diamond come up as a way to handle the hotspots that chiplet stacking concentrates? Kara makes polycrystalline CVD diamond wafers and single-crystal plates, built to slot into existing package designs.
+For NHanced Semiconductors' chiplet packaging roadmap, has diamond come up as a way to handle the hotspots that chiplet stacking concentrates? Kara's polycrystalline CVD diamond wafers run 1800+ W/m·K, built to slot into existing package designs.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 54,T2,displacement,Wujong Lee,Korea Electric Power Corporation (South Korea),N,copper-diamond-composite,Thermal-Stress-Induced Degradation Monitoring and Deep-Neural-Network-Driven Lifetime Prediction of IGBT Modules in a Two-Level SVPWM Inverter,https://doi.org/10.3390/electronics15081678,2026,monitored thermal stress degradation and predicted IGBT module lifetime in a two level converter,thermal stress degradation in IGBT modules,"Hi Wujong,
 
-For Korea Electric Power's IGBT degradation and lifetime work, has diamond come up as a way to reduce the thermal stress your models are tracking? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For Korea Electric Power's IGBT degradation and lifetime work, has diamond come up as a way to reduce the thermal stress your models are tracking? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,"tried, no Apollo match",
 55,T2,displacement,Arun Gowda,GE Global Research (United States),N,copper-diamond-composite,SiC Power Module Packaging Using Printed Electronics Materials and Processes,https://doi.org/10.1109/tcpmt.2024.3453209,2024,built SiC power module packaging from printed electronics materials and processes,printed process routes for SiC module packaging,"Hi Arun,
 
-For GE Global Research's printed SiC module packaging, has diamond come up as a way to put a CTE-matched layer under the die in a rebuilt stack? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For GE Global Research's printed SiC module packaging, has diamond come up as a way to put a CTE-matched layer under the die in a rebuilt stack? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
@@ -393,7 +393,7 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,bo.xia@henkel.com,http://www.linkedin.com/in/bo-xia-146b911b,,Sr. Chemist,name+company,2026-08-20
 57,T2,displacement,Jeff Erlbaum,GE Global Research (United States),N,copper-diamond-composite,SiC Power Module Packaging Using Printed Electronics Materials and Processes,https://doi.org/10.1109/tcpmt.2024.3453209,2024,built SiC power module packaging from printed electronics materials and processes,printed process routes for SiC module packaging,"Hi Jeff,
 
-For GE Global Research's printed SiC module packaging, has diamond come up as a way to put a CTE-matched layer under the die in a rebuilt stack? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For GE Global Research's printed SiC module packaging, has diamond come up as a way to put a CTE-matched layer under the die in a rebuilt stack? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
@@ -414,7 +414,7 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,lina.bian@henkel.com,http://www.linkedin.com/in/lina-bian-a1401b8b,,Senior Scientific Associate,name+company,2026-08-20
 60,T2,displacement,Michele Calabretta,STMicroelectronics (Italy),N,copper-diamond-composite,Effects of the pin-fins cooler roughness on the thermo-fluid dynamics performance of a SiC power module,https://doi.org/10.1016/j.ijft.2024.100609,2024,quantified how pin fin cooler roughness changes thermo-fluid performance in a SiC power module,pin fin roughness in SiC module cooling,"Hi Michele,
 
-For STMicroelectronics' SiC power module cooling work, has diamond come up as a way to change how much heat reaches the fins, and how evenly it arrives? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For STMicroelectronics' SiC power module cooling work, has diamond come up as a way to change how much heat reaches the fins, and how evenly it arrives? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
@@ -456,7 +456,7 @@ Happy to share more if it's relevant.
 Dharshini / Kara Labs / https://karalabs.ai",,,,,,,
 66,T2,displacement,Xiong Han,GE Global Research (United States),N,copper-diamond-composite,SiC Power Module Packaging Using Printed Electronics Materials and Processes,https://doi.org/10.1109/tcpmt.2024.3453209,2024,built SiC power module packaging from printed electronics materials and processes,printed process routes for SiC module packaging,"Hi Xiong,
 
-For GE Global Research's printed SiC module packaging, has diamond come up as a way to put a CTE-matched layer under the die in a rebuilt stack? Kara makes copper-diamond and aluminum-diamond composite with CTE targeted to the die rather than the baseplate.
+For GE Global Research's printed SiC module packaging, has diamond come up as a way to put a CTE-matched layer under the die in a rebuilt stack? Kara's copper-diamond composite runs 500 to 800+ W/m·K depending on configuration, with CTE targeted to the die rather than the baseplate.
 
 Happy to share more if it's relevant.
 
