@@ -21,13 +21,24 @@
     <string>dharshini@karadiam.com</string>
   </dict>
 
-  <!-- Every day at 09:00 local. The OpenAlex budget resets at midnight UTC,
-       the previous afternoon in Pacific time, so the allowance is fresh. -->
+  <!-- 09:00, 12:00 and 15:00 local, every day. The OpenAlex daily budget
+       resets at midnight UTC, so all three runs share one day's allowance;
+       each run uses roughly 150 of about 1000 credits. -->
   <key>StartCalendarInterval</key>
-  <dict>
-    <key>Hour</key><integer>9</integer>
-    <key>Minute</key><integer>0</integer>
-  </dict>
+  <array>
+    <dict>
+      <key>Hour</key><integer>9</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+    <dict>
+      <key>Hour</key><integer>12</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+    <dict>
+      <key>Hour</key><integer>15</integer>
+      <key>Minute</key><integer>0</integer>
+    </dict>
+  </array>
 
   <!-- If the Mac was asleep or off at 09:00, run at the next opportunity. -->
   <key>RunAtLoad</key>

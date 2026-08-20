@@ -14,13 +14,14 @@ PY=/Library/Frameworks/Python.framework/Versions/3.14/bin/python3
 CLAUDE=$(command -v claude || echo "$HOME/.local/bin/claude")
 TO="${DIGEST_TO:-dharshini.mar@gmail.com}"
 LIMIT="${ENRICH_LIMIT:-20}"
+PER_COMPANY="${ENRICH_PER_COMPANY:-1}"
 
 mkdir -p data/log
 LOG="data/log/enrich-$(date +%Y-%m-%d).log"
 log() { echo "[$(date '+%H:%M')] $*" | tee -a "$LOG"; }
 
 # ---------------------------------------------------------------- enrichment
-"$PY" scripts/prepare_enrichment.py --limit "$LIMIT" >>"$LOG" 2>&1
+"$PY" scripts/prepare_enrichment.py --limit "$LIMIT" --per-company "$PER_COMPANY" >>"$LOG" 2>&1
 PENDING=$("$PY" -c "import csv;print(len(list(csv.DictReader(open('data/pending_enrichment.csv')))))")
 log "queued $PENDING for Apollo lookup"
 
@@ -62,8 +63,9 @@ echo "$OUT" >>"$LOG"
 HAS_NEW=$(echo "$OUT" | sed -n 's/HAS_NEW=//p')
 log "digest built, $HAS_NEW new"
 
-if [ "${HAS_NEW:-0}" -gt 0 ]; then
-  "$CLAUDE" -p "Read the file data/digest.txt. Send its contents as a plain text email to $TO with the subject 'Kara: $HAS_NEW new contacts with drafts'. Send the file contents verbatim as the body. Do not summarise, reword, or add anything. Send to $TO only, nobody else. Reply with just 'sent'." \
+HOUR=$(date +%H)
+if [ "${HAS_NEW:-0}" -gt 0 ] || [ "$HOUR" = "15" ] || [ -n "$DIGEST_ALWAYS" ]; then
+  "$CLAUDE" -p "Read the file data/digest.txt. Send its contents as a plain text email to $TO with the subject 'Kara pipeline: $HAS_NEW new contacts'. Send the file contents verbatim as the body. Do not summarise, reword, or add anything. Send to $TO only, nobody else. Reply with just 'sent'." \
     --allowedTools "Read,mcp__claude_ai_Gmail__send_message" \
     >>"$LOG" 2>&1
   log "digest emailed to $TO"
