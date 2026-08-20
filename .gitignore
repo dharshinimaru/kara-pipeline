@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+
+# Contact data is never committed. Enrichment output contains email addresses
+# and belongs in Apollo, not in git.
+data/already_drafted.csv
+data/*_enriched.csv
+data/*_contacts.csv

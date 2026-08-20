@@ -1,0 +1,19 @@
+{
+  "queries": [
+    {"query": "diamond heat spreader", "class": "core"},
+    {"query": "diamond thermal conductivity substrate", "class": "core"},
+    {"query": "GaN diamond thermal", "class": "core"},
+    {"query": "single crystal diamond MPCVD", "class": "core"},
+    {"query": "copper diamond composite", "class": "core"},
+    {"query": "thermal boundary resistance GaN", "class": "displacement"},
+    {"query": "near-junction thermal management", "class": "displacement"},
+    {"query": "die attach thermal resistance", "class": "displacement"},
+    {"query": "chiplet package thermal", "class": "displacement"},
+    {"query": "co-packaged optics thermal", "class": "displacement"},
+    {"query": "power module baseplate thermal", "class": "displacement"},
+    {"query": "IGBT module thermal fatigue", "class": "displacement"},
+    {"query": "laser diode thermal management", "class": "displacement"},
+    {"query": "GaN HEMT thermal management", "class": "displacement"},
+    {"query": "wide bandgap power device packaging", "class": "displacement"}
+  ]
+}
