@@ -11,3 +11,4 @@ data/*_contacts.csv
 data/log/
 candidates.json
 data/candidates.json
+data/apollo_enriched_*.csv
