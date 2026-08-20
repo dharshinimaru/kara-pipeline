@@ -12,3 +12,6 @@ data/log/
 candidates.json
 data/candidates.json
 data/apollo_enriched_*.csv
+data/pending_enrichment.csv
+data/apollo_auto.csv
+data/digest.txt

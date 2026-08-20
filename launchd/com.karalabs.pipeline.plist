@@ -21,12 +21,10 @@
     <string>dharshini@karadiam.com</string>
   </dict>
 
-  <!-- Mondays at 09:00 local. The OpenAlex budget resets at midnight UTC,
-       which is the previous afternoon in Pacific time, so the allowance is
-       fresh by the time this fires. -->
+  <!-- Every day at 09:00 local. The OpenAlex budget resets at midnight UTC,
+       the previous afternoon in Pacific time, so the allowance is fresh. -->
   <key>StartCalendarInterval</key>
   <dict>
-    <key>Weekday</key><integer>1</integer>
     <key>Hour</key><integer>9</integer>
     <key>Minute</key><integer>0</integer>
   </dict>

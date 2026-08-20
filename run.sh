@@ -48,4 +48,9 @@ BEFORE=$("$PY" -c "import csv,os;p='data/review_batch.csv';print(len(list(csv.Di
   || { log "FAILED during drafting"; exit 1; }
 AFTER=$("$PY" -c "import csv;print(len(list(csv.DictReader(open('data/review_batch.csv')))))")
 
-log "done. $((AFTER - BEFORE)) new people added, $AFTER total in data/review_batch.csv"
+log "$((AFTER - BEFORE)) new people added, $AFTER total in data/review_batch.csv"
+
+log "enriching and sending digest"
+./scripts/enrich_and_send.sh
+
+log "done"
