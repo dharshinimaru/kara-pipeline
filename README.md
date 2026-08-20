@@ -25,7 +25,7 @@ data/                            all generated CSVs
 
 ```bash
 # 1. Mine. Free, no API key. Use a real address for the polite pool.
-export OPENALEX_MAILTO=dharshini@karalabs.ai
+export OPENALEX_MAILTO=dharshini@karadiam.com
 python3 scripts/mine_openalex.py --out data/authors_raw.csv --max-pages 3
 
 # 2. Qualify. Ask Claude to run the qualify-authors skill.
