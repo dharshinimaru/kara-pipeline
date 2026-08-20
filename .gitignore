@@ -3,8 +3,9 @@ __pycache__/
 .DS_Store
 .venv/
 
-# Contact data is never committed. Enrichment output contains email addresses
-# and belongs in Apollo, not in git.
+# No personal data in git. These files name real researchers, their employers
+# and in some cases their work email addresses. The aggregate reports in
+# data/*.md carry no personal data and are kept.
 data/already_drafted.csv
 data/*_enriched.csv
 data/*_contacts.csv
@@ -15,3 +16,9 @@ data/apollo_enriched_*.csv
 data/pending_enrichment.csv
 data/apollo_auto.csv
 data/digest.txt
+data/review_batch.csv
+data/candidates_*.csv
+data/authors_*.csv
+data/probe_authors*.csv
+data/rejected.csv
+data/draft_log.csv
